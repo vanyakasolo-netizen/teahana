@@ -1,0 +1,2225 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0e0c10">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Голоса NPC — D&amp;D</title>
+  <link rel="icon" href="data:image/png;base64,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">
+  
+  <style>
+:root {
+  --bg: #0e0c10;
+  --bg2: #171319;
+  --card: #1d1822;
+  --card2: #261f2d;
+  --line: #3a3042;
+  --text: #ece3d0;
+  --muted: #a89fae;
+  --gold: #d1a94f;
+  --gold2: #f0d58a;
+  --ember: #d2493a;
+  --ok: #5fae7b;
+  --arcane: #7d8cd6;
+  --accent: var(--gold);
+  --radius: 16px;
+  --serif: "Cinzel", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 16px; overscroll-behavior: none; touch-action: manipulation; }
+body { background: radial-gradient(1200px 600px at 50% -10%, #231a2b 0%, var(--bg) 60%); }
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+input, select, textarea { font: inherit; color: var(--text); }
+[hidden] { display: none !important; }
+
+#app { height: 100dvh; display: flex; flex-direction: column; max-width: 1100px; margin: 0 auto; }
+
+/* ---------- верхняя панель ---------- */
+.topbar { flex: none; display: flex; align-items: center; justify-content: space-between; padding: max(10px, env(safe-area-inset-top)) 14px 6px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand h1 { margin: 0; font-family: var(--serif); font-size: 1.15rem; letter-spacing: .08em; text-transform: uppercase; color: var(--gold2); font-weight: 600; }
+.rune { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--gold); border-radius: 50%; color: var(--gold); font-size: 1.1rem; box-shadow: 0 0 14px rgba(209, 169, 79, .25) inset; }
+.top-actions { display: flex; gap: 6px; }
+.icon-btn { width: 44px; height: 44px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); font-size: 1.2rem; display: grid; place-items: center; }
+.icon-btn:active { background: var(--card2); }
+
+/* ---------- фильтры ---------- */
+.chips { flex: none; display: flex; gap: 8px; padding: 6px 14px 10px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg2); color: var(--muted); font-size: .9rem; white-space: nowrap; min-height: 38px; }
+.chip.on { color: #1a1408; background: var(--gold); border-color: var(--gold); font-weight: 600; }
+
+/* ---------- сетка карточек ---------- */
+.grid { flex: 1; overflow-y: auto; padding: 4px 14px 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: 12px; align-content: start; -webkit-overflow-scrolling: touch; }
+.empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 10px; }
+.card { position: relative; background: linear-gradient(180deg, var(--card2), var(--card)); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 12px 10px; display: flex; flex-direction: column; gap: 4px; cursor: pointer; transition: transform .12s, box-shadow .2s, border-color .2s; user-select: none; -webkit-user-select: none; }
+.card:active { transform: scale(.98); }
+.card.selected { border-color: var(--cc, var(--gold)); box-shadow: 0 0 0 1px var(--cc, var(--gold)), 0 0 22px color-mix(in srgb, var(--cc, var(--gold)) 38%, transparent); background: linear-gradient(180deg, color-mix(in srgb, var(--cc, var(--gold)) 14%, var(--card2)), var(--card)); }
+.card .badge { position: absolute; top: 10px; left: 10px; font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: #1a1408; background: var(--cc, var(--gold)); padding: 2px 8px; border-radius: 999px; font-weight: 700; display: none; }
+.card.selected .badge { display: block; }
+.card .fav { position: absolute; top: 4px; right: 4px; width: 40px; height: 40px; font-size: 1.25rem; color: var(--muted); border-radius: 10px; }
+.card .fav.on { color: var(--gold2); }
+.avatar { width: 64px; height: 64px; border-radius: 50%; margin: 18px auto 4px; display: grid; place-items: center; font-size: 2.1rem; background: radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--cc, var(--gold)) 35%, #2a2230), #19141e 75%); border: 2px solid color-mix(in srgb, var(--cc, var(--gold)) 70%, transparent); overflow: hidden; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.card h3 { margin: 4px 0 0; font-family: var(--serif); font-size: 1rem; text-align: center; color: var(--gold2); line-height: 1.2; }
+.card .meta { margin: 0; text-align: center; color: var(--text); font-size: .82rem; }
+.card .kind { margin: 0; text-align: center; color: var(--muted); font-size: .76rem; }
+.card .desc { margin: 2px 0 4px; color: var(--muted); font-size: .8rem; line-height: 1.3; text-align: center; min-height: 2.1em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .actions { display: flex; gap: 6px; margin-top: auto; }
+.card .actions button { flex: 1; min-height: 42px; border-radius: 10px; background: #130f17; border: 1px solid var(--line); font-size: .88rem; }
+.card .actions .play { flex: 2; }
+.card .actions .play.busy { background: var(--accent); color: #1a1408; }
+.tag-engine { position: absolute; bottom: 62px; right: 10px; font-size: .62rem; color: var(--arcane); border: 1px solid var(--arcane); border-radius: 6px; padding: 0 5px; }
+
+/* ---------- нижняя панель ---------- */
+.dock { flex: none; background: linear-gradient(180deg, rgba(23, 19, 25, .96), #120e15); border-top: 1px solid var(--line); padding: 6px 12px calc(8px + var(--safe-b)); box-shadow: 0 -10px 30px rgba(0, 0, 0, .45); }
+.quick { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 6px; scrollbar-width: none; }
+.quick::-webkit-scrollbar { display: none; }
+.q-item { flex: none; width: 54px; text-align: center; }
+.q-item .qa { width: 46px; height: 46px; margin: 0 auto; border-radius: 50%; display: grid; place-items: center; font-size: 1.5rem; background: #1b1620; border: 2px solid var(--line); overflow: hidden; }
+.q-item .qa img { width: 100%; height: 100%; object-fit: cover; }
+.q-item.on .qa { border-color: var(--cc, var(--gold)); box-shadow: 0 0 14px color-mix(in srgb, var(--cc, var(--gold)) 55%, transparent); }
+.q-item span { display: block; font-size: .64rem; color: var(--muted); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.q-item.on span { color: var(--text); }
+
+.mic-row { display: flex; align-items: center; justify-content: center; gap: 14px; }
+.nav-btn { width: 48px; height: 48px; border-radius: 50%; background: var(--card); border: 1px solid var(--line); font-size: 1.8rem; line-height: 1; color: var(--gold2); }
+.nav-btn:active { background: var(--card2); }
+.mic { position: relative; width: 100%; max-width: 280px; height: 62px; border-radius: 36px; display: flex; align-items: center; justify-content: center; gap: 12px; background: linear-gradient(180deg, #2b2233, #1b1520); border: 2px solid var(--gold); color: var(--gold2); font-size: 1.05rem; font-weight: 600; box-shadow: 0 0 22px rgba(209, 169, 79, .2); }
+.mic .mic-icon { font-size: 1.7rem; }
+.mic .mic-ring { position: absolute; inset: -6px; border-radius: 42px; border: 2px solid transparent; pointer-events: none; }
+.mic.on { background: linear-gradient(180deg, #6b2018, #3d1410); border-color: var(--ember); color: #ffe3dc; box-shadow: 0 0 26px rgba(210, 73, 58, .45); }
+.mic.on .mic-ring { border-color: rgba(210, 73, 58, .5); animation: pulse 1.6s ease-out infinite; }
+.mic.speech { box-shadow: 0 0 34px rgba(240, 120, 90, .75); }
+.mic.warn { border-color: #e6a23c; }
+@keyframes pulse { 0% { transform: scale(.98); opacity: .9; } 100% { transform: scale(1.08); opacity: 0; } }
+
+.status-row { margin-top: 6px; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; }
+.now { font-family: var(--serif); color: var(--gold2); font-size: .95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.status { grid-column: 1; color: var(--muted); font-size: .82rem; min-height: 1.2em; }
+.meters { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-direction: column; gap: 3px; width: 128px; }
+.meter { display: flex; align-items: center; gap: 6px; font-size: .62rem; color: var(--muted); }
+.meter span { width: 32px; text-align: right; }
+.meter i { flex: 1; height: 7px; background: #0b090d; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; display: block; }
+.meter b { display: block; height: 100%; width: 0%; background: linear-gradient(90deg, #4f9a6c, #d1a94f 70%, #d2493a); transition: width .06s linear; }
+.fb-row { grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; background: #3a2412; border: 1px solid #e6a23c; border-radius: 12px; padding: 8px 10px; font-size: .82rem; margin-top: 6px; }
+
+.controls { display: flex; gap: 6px; align-items: center; margin-top: 6px; flex-wrap: wrap; }
+.seg { display: flex; background: #130f17; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.seg button { padding: 0 11px; min-height: 40px; color: var(--muted); font-size: .86rem; }
+.seg button.on { background: var(--gold); color: #1a1408; font-weight: 700; }
+.toggle { display: flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 10px; border: 1px solid var(--line); border-radius: 12px; background: #130f17; color: var(--muted); font-size: .82rem; }
+.toggle .dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--muted); }
+.toggle[aria-pressed="true"] { color: var(--text); border-color: var(--ok); }
+.toggle[aria-pressed="true"] .dot { background: var(--ok); border-color: var(--ok); }
+
+.btn { min-height: 46px; padding: 0 16px; border-radius: 12px; background: var(--card2); border: 1px solid var(--line); color: var(--text); }
+.btn:active { filter: brightness(1.2); }
+.btn.small { min-height: 40px; padding: 0 12px; font-size: .88rem; }
+.btn.primary { background: var(--gold); color: #1a1408; border-color: var(--gold); font-weight: 700; }
+.btn.danger { color: #ff9a8c; border-color: #6b2c26; }
+.btn.block { width: 100%; }
+
+/* ---------- окна ---------- */
+.overlay { position: fixed; inset: 0; background: rgba(5, 3, 8, .72); display: flex; align-items: flex-end; justify-content: center; z-index: 30; animation: fade .15s; }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+.sheet { width: 100%; max-width: 620px; max-height: 92dvh; overflow-y: auto; background: var(--bg2); border: 1px solid var(--line); border-radius: 22px 22px 0 0; padding: 16px 16px calc(18px + var(--safe-b)); animation: up .2s ease-out; }
+@keyframes up { from { transform: translateY(40px); } to { transform: none; } }
+.sheet h2 { margin: 0 0 12px; font-family: var(--serif); color: var(--gold2); font-size: 1.15rem; letter-spacing: .05em; }
+.sheet h4 { margin: 18px 0 8px; color: var(--gold); font-family: var(--serif); font-size: .92rem; letter-spacing: .06em; text-transform: uppercase; }
+.sheet .row { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
+.sheet .row.wrap { flex-wrap: wrap; }
+.sheet .row > * { min-width: 0; }
+.sheet label.f { display: block; margin: 10px 0 4px; font-size: .8rem; color: var(--muted); }
+.sheet input[type=text], .sheet select, .sheet textarea { width: 100%; min-height: 46px; padding: 8px 12px; background: #0f0c12; border: 1px solid var(--line); border-radius: 12px; }
+.sheet textarea { min-height: 70px; resize: vertical; }
+.sheet .hint { color: var(--muted); font-size: .8rem; line-height: 1.35; margin: 4px 0; }
+.sheet .hint.warn { color: #f0b46a; }
+.sheet .sticky { position: sticky; bottom: calc(-18px - var(--safe-b)); background: linear-gradient(180deg, transparent, var(--bg2) 30%); padding-top: 14px; display: flex; gap: 8px; }
+.sheet .sticky .btn { flex: 1; }
+.grid-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+.slider { margin: 12px 0; }
+.slider .top { display: flex; justify-content: space-between; align-items: baseline; font-size: .9rem; }
+.slider .top b { color: var(--gold2); font-variant-numeric: tabular-nums; }
+.slider small { color: var(--muted); font-size: .72rem; }
+.slider.dim { opacity: .5; }
+input[type=range] { width: 100%; height: 40px; background: transparent; -webkit-appearance: none; appearance: none; }
+input[type=range]::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--gold) var(--p, 50%), #342b3b var(--p, 50%)); }
+input[type=range]::-moz-range-track { height: 6px; border-radius: 3px; background: #342b3b; }
+input[type=range]::-moz-range-progress { height: 6px; border-radius: 3px; background: var(--gold); }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 28px; height: 28px; margin-top: -11px; border-radius: 50%; background: var(--gold2); border: 3px solid #1a1408; box-shadow: 0 0 0 1px var(--gold); }
+input[type=range]::-moz-range-thumb { width: 24px; height: 24px; border-radius: 50%; background: var(--gold2); border: 3px solid #1a1408; }
+
+.emoji-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); gap: 6px; margin: 8px 0; }
+.emoji-grid button { height: 46px; font-size: 1.5rem; border-radius: 10px; background: #0f0c12; border: 1px solid var(--line); }
+.emoji-grid button.on { border-color: var(--gold); background: #2a2230; }
+.edit-avatar { display: flex; align-items: center; gap: 12px; }
+.edit-avatar .avatar { margin: 0; width: 72px; height: 72px; flex: none; }
+
+.cat-list { display: flex; flex-direction: column; gap: 6px; }
+.lib-row { display: flex; align-items: center; gap: 10px; padding: 8px; border: 1px solid var(--line); border-radius: 12px; background: #120e15; }
+.lib-row .avatar { margin: 0; width: 40px; height: 40px; font-size: 1.3rem; flex: none; border-width: 1px; }
+.lib-row .nm { flex: 1; min-width: 0; font-size: .92rem; }
+.lib-row .nm small { display: block; color: var(--muted); }
+.lib-row button { width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: #1b1620; }
+
+.status-line { padding: 8px 12px; border-radius: 10px; font-size: .86rem; background: #120e15; border: 1px solid var(--line); }
+.status-line.ok { border-color: var(--ok); }
+.status-line.bad { border-color: #8a4a2c; color: #f0b46a; }
+
+/* ---------- запись пробной фразы ---------- */
+.rec-overlay { position: fixed; inset: 0; z-index: 40; display: grid; place-items: center; background: rgba(5, 3, 8, .88); text-align: center; padding: 20px; }
+.rec-circle { width: 140px; height: 140px; margin: 0 auto 18px; border-radius: 50%; border: 3px solid var(--ember); display: grid; place-items: center; font-family: var(--serif); font-size: 3.4rem; color: #ffe3dc; animation: pulse 1.2s ease-out infinite; }
+.rec-box p { font-size: 1.15rem; margin: 6px 0; }
+.rec-box small { color: var(--muted); }
+
+#toasts { position: fixed; left: 0; right: 0; top: max(10px, env(safe-area-inset-top)); display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 60; pointer-events: none; padding: 0 12px; }
+.toast { pointer-events: auto; max-width: 560px; padding: 12px 16px; border-radius: 14px; background: #2a2230; border: 1px solid var(--gold); color: var(--text); font-size: .92rem; line-height: 1.35; box-shadow: 0 8px 30px rgba(0, 0, 0, .5); animation: up .2s; }
+.toast.err { border-color: var(--ember); background: #3a1814; }
+.toast.ok { border-color: var(--ok); }
+
+/* ---------- ландшафт на телефоне: панель справа ---------- */
+@media (orientation: landscape) and (max-height: 520px) {
+  #app { display: grid; grid-template-columns: 1fr 300px; grid-template-rows: auto auto 1fr; grid-template-areas: "top dock" "chips dock" "grid dock"; max-width: none; }
+  .topbar { grid-area: top; padding-top: 6px; }
+  .chips { grid-area: chips; padding-bottom: 6px; }
+  .grid { grid-area: grid; }
+  .dock { grid-area: dock; overflow-y: auto; border-top: 0; border-left: 1px solid var(--line); padding: 8px 10px; }
+  .mic { height: 58px; }
+  .meters { width: 100px; }
+}
+@media (min-width: 760px) {
+  .mic { max-width: 320px; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+details.emoji-pick { margin: 6px 0 2px; }
+details.emoji-pick summary { cursor: pointer; padding: 10px 2px; color: var(--gold); font-size: .9rem; list-style: none; }
+details.emoji-pick summary::-webkit-details-marker { display: none; }
+details.emoji-pick summary::before { content: '▸ '; }
+details.emoji-pick[open] summary::before { content: '▾ '; }
+
+.gender-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-height: 110px; font-size: 1.05rem; }
+.gender-btn .g-emoji { font-size: 2.6rem; line-height: 1; }
+
+</style>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand"><span class="rune" aria-hidden="true">ᚦ</span><h1>Голоса NPC</h1></div>
+      <div class="top-actions">
+        <button class="icon-btn" id="btnAdd" aria-label="Создать NPC" title="Создать NPC">＋</button>
+        <button class="icon-btn" id="btnLibrary" aria-label="Библиотека" title="Библиотека">📚</button>
+        <button class="icon-btn" id="btnSettings" aria-label="Настройки" title="Настройки">⚙</button>
+      </div>
+    </header>
+
+    <nav class="chips" id="chips" aria-label="Категории"></nav>
+
+    <main id="grid" class="grid" aria-live="polite"></main>
+
+    <footer class="dock" id="dock">
+      <div class="quick" id="quick" aria-label="Быстрый выбор NPC"></div>
+
+      <div class="mic-row">
+        <button class="nav-btn" id="btnPrev" aria-label="Предыдущий NPC">‹</button>
+        <button class="mic" id="btnMic" aria-pressed="false">
+          <span class="mic-ring"></span>
+          <span class="mic-icon" aria-hidden="true">🎙</span>
+          <span class="mic-label" id="micLabel">Включить микрофон</span>
+        </button>
+        <button class="nav-btn" id="btnNext" aria-label="Следующий NPC">›</button>
+      </div>
+
+      <div class="status-row">
+        <div class="now" id="nowVoice">NPC не выбран</div>
+        <div class="status" id="statusText">Микрофон выключен</div>
+        <div class="meters" aria-hidden="true">
+          <div class="meter"><span>вход</span><i><b id="meterIn"></b></i></div>
+          <div class="meter"><span>выход</span><i><b id="meterOut"></b></i></div>
+        </div>
+        <div class="fb-row" id="fbRow" hidden>
+          <span>Обратная связь — звук заглушён. Уберите динамик от микрофона или наденьте наушники.</span>
+          <button class="btn small" id="btnUnmute">Включить звук</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Режим">
+          <button data-mode="live" id="modeLive">Живой</button>
+          <button data-mode="phrase" id="modePhrase">Фразы</button>
+        </div>
+        <button class="toggle" id="btnAutoplay" aria-pressed="true"><span class="dot"></span>Авто-звук</button>
+        <button class="toggle" id="btnMonitor" aria-pressed="false" title="Слушать свой исходный голос"><span class="dot"></span>Оригинал</button>
+        <button class="btn small" id="btnPhoneRec" hidden>🎙 Записать на телефон</button>
+        <button class="btn small" id="btnReplay" hidden>▶ Повторить</button>
+        <button class="btn small" id="btnReplayOrig" hidden>▶ Оригинал</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Нижние окна -->
+  <div class="overlay" id="overlay" hidden>
+    <section class="sheet" id="sheet" role="dialog" aria-modal="true"></section>
+  </div>
+
+  <div class="rec-overlay" id="recOverlay" hidden>
+    <div class="rec-box">
+      <div class="rec-circle"><span id="recCount">4</span></div>
+      <p id="recText">Скажите любую фразу обычным голосом</p>
+      <small>Она нужна, чтобы примеры NPC звучали на основе вашего голоса</small>
+    </div>
+  </div>
+
+  <div id="toasts" aria-live="assertive"></div>
+
+  <input type="file" id="fileImport" accept="application/json,.json" hidden>
+  <input type="file" id="fileRec" accept="audio/*" capture hidden>
+  <input type="file" id="fileAvatar" accept="image/*" hidden>
+
+  <script>
+window.VDND_WORKLET_SRC = "/*\n * dsp-core.js \u2014 \u044f\u0434\u0440\u043e \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0442\u0435\u043c\u0431\u0440\u0430 \u0433\u043e\u043b\u043e\u0441\u0430.\n *\n * \u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043a\u0440\u0438\u043f\u0442 (\u043d\u0435 \u043c\u043e\u0434\u0443\u043b\u044c): \u043e\u0434\u0438\u043d \u0438 \u0442\u043e\u0442 \u0436\u0435 \u043a\u043e\u0434 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442\n *  - \u0432 AudioWorklet (\u0436\u0438\u0432\u043e\u0439 \u0440\u0435\u0436\u0438\u043c, \u043f\u043e\u0442\u043e\u043a\u043e\u0432\u0430\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430),\n *  - \u043d\u0430 \u043e\u0431\u044b\u0447\u043d\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 (\u0440\u0435\u0436\u0438\u043c \u0444\u0440\u0430\u0437, \u043e\u0444\u043b\u0430\u0439\u043d-\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430),\n *  - \u0432 Node (\u0430\u0432\u0442\u043e\u0442\u0435\u0441\u0442\u044b).\n *\n * \u041c\u0435\u0442\u043e\u0434: \u0444\u0430\u0437\u043e\u0432\u044b\u0439 \u0432\u043e\u043a\u043e\u0434\u0435\u0440 \u0441 \u0420\u0410\u0417\u0414\u0415\u041b\u0415\u041d\u0418\u0415\u041c \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430 \u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430.\n *   1. \u0421\u043f\u0435\u043a\u0442\u0440 \u043a\u0430\u0434\u0440\u0430 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0443\u044e (\u0444\u043e\u0440\u043c\u0430\u043d\u0442\u044b = \u00ab\u0442\u0435\u043c\u0431\u0440 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0433\u043e \u0442\u0440\u0430\u043a\u0442\u0430\u00bb,\n *      \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 \u043a\u0435\u043f\u0441\u0442\u0440) \u0438 \u0432\u043e\u0437\u0431\u0443\u0436\u0434\u0435\u043d\u0438\u0435 (\u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a\u0438 = \u00ab\u0432\u044b\u0441\u043e\u0442\u0430\u00bb).\n *   2. \u0412\u043e\u0437\u0431\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0441\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044f \u043f\u043e \u0432\u044b\u0441\u043e\u0442\u0435 (pitch), \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f \u2014 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e (\u0444\u043e\u0440\u043c\u0430\u043d\u0442\u044b).\n *      \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u0442\u0435\u043c\u0431\u0440 \u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f, \u0430 \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b\u0441\u043e\u0442\u0430.\n *   3. \u041f\u043e\u0432\u0435\u0440\u0445: \u0445\u0440\u0438\u043f\u043e\u0442\u0430/\u0448\u0451\u043f\u043e\u0442 (\u0441\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0435 \u0444\u0430\u0437\u044b), \u0433\u043b\u0443\u0431\u0438\u043d\u0430 \u0438 \u044f\u0440\u043a\u043e\u0441\u0442\u044c (\u0444\u043e\u0440\u043c\u0430 \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0435\u0439),\n *      \u0440\u044b\u0447\u0430\u043d\u0438\u0435, \u044d\u0445\u043e, \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c, \u043c\u044f\u0433\u043a\u0438\u0439 \u043b\u0438\u043c\u0438\u0442\u0435\u0440.\n *\n * \u042d\u0442\u043e \u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441\u0438\u0433\u043d\u0430\u043b\u0430, \u0430 \u043d\u0435 \u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u044c. \u041d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0435\u0432\u043e\u0435 \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435\n * (RVC) \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e \u0447\u0435\u0440\u0435\u0437 \u0441\u0435\u0440\u0432\u0435\u0440 \u043d\u0430 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0435 (\u0441\u043c. server/).\n */\n(function (g) {\n  'use strict';\n\n  const TWO_PI = Math.PI * 2;\n\n  /* ------------------------------------------------------------------ */\n  /* \u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0438 \u0438\u0445 \u0433\u0440\u0430\u043d\u0438\u0446\u044b                                 */\n  /* ------------------------------------------------------------------ */\n  const DEFAULT_PARAMS = {\n    pitch: 0,     // \u043f\u043e\u043b\u0443\u0442\u043e\u043d\u0430, -12..+12  \u2014 \u0432\u044b\u0441\u043e\u0442\u0430 \u0433\u043e\u043b\u043e\u0441\u0430\n    formant: 0,   // \u043f\u043e\u043b\u0443\u0442\u043e\u043d\u0430, -8..+8    \u2014 \u0442\u0435\u043c\u0431\u0440 (\u0441\u0434\u0432\u0438\u0433 \u0444\u043e\u0440\u043c\u0430\u043d\u0442)\n    depth: 0,     // 0..1                \u2014 \u0433\u043b\u0443\u0431\u0438\u043d\u0430 (\u0431\u0430\u0441, \u0442\u0451\u043c\u043d\u044b\u0439 \u0437\u0432\u0443\u043a)\n    tilt: 0,      // -1..+1              \u2014 \u044f\u0440\u043a\u043e\u0441\u0442\u044c (\u043d\u0430\u043a\u043b\u043e\u043d \u0441\u043f\u0435\u043a\u0442\u0440\u0430)\n    breath: 0,    // 0..1                \u2014 \u0445\u0440\u0438\u043f\u043e\u0442\u0430 / \u0448\u0451\u043f\u043e\u0442\n    growl: 0,     // 0..1                \u2014 \u0440\u044b\u0447\u0430\u043d\u0438\u0435\n    echo: 0,      // 0..1                \u2014 \u044d\u0445\u043e\n    speed: 1,     // 0.6..1.6            \u2014 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0440\u0435\u0447\u0438 (\u0442\u043e\u043b\u044c\u043a\u043e \u0440\u0435\u0436\u0438\u043c \u0444\u0440\u0430\u0437)\n    volume: 1,    // 0..2                \u2014 \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c\n    lively: 0,    // 0..1.5              \u2014 \u0436\u0438\u0432\u043e\u0441\u0442\u044c: \u0448\u0438\u0440\u0435 \u0438\u043d\u0442\u043e\u043d\u0430\u0446\u0438\u044f + \u043b\u0451\u0433\u043a\u0438\u0439 \u0434\u0440\u0435\u0439\u0444 \u0432\u044b\u0441\u043e\u0442\u044b\n    layer: 0      // 0..1                \u2014 \u0440\u0430\u0437\u0434\u0432\u043e\u0435\u043d\u0438\u0435: \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 \u043a\u043e\u043f\u0438\u044e \u0433\u043e\u043b\u043e\u0441\u0430 \u043d\u0430 \u043e\u043a\u0442\u0430\u0432\u0443 \u043d\u0438\u0436\u0435\n  };\n\n  function mergeParams(p) {\n    const o = Object.assign({}, DEFAULT_PARAMS);\n    if (p) for (const k in DEFAULT_PARAMS) if (typeof p[k] === 'number' && isFinite(p[k])) o[k] = p[k];\n    return o;\n  }\n\n  /* ------------------------------------------------------------------ */\n  /* \u0411\u041f\u0424 (radix-2)                                                       */\n  /* ------------------------------------------------------------------ */\n  class FFT {\n    constructor(n) {\n      this.n = n;\n      const levels = Math.round(Math.log2(n));\n      if ((1 << levels) !== n) throw new Error('FFT size must be a power of two');\n      this.cos = new Float64Array(n / 2);\n      this.sin = new Float64Array(n / 2);\n      for (let i = 0; i < n / 2; i++) {\n        this.cos[i] = Math.cos(TWO_PI * i / n);\n        this.sin[i] = Math.sin(TWO_PI * i / n);\n      }\n      this.rev = new Uint32Array(n);\n      for (let i = 0; i < n; i++) {\n        let r = 0, x = i;\n        for (let b = 0; b < levels; b++) { r = (r << 1) | (x & 1); x >>= 1; }\n        this.rev[i] = r;\n      }\n    }\n    // \u043f\u0440\u044f\u043c\u043e\u0435: X[k] = sum x[n] e^{-i2\u03c0kn/N}; \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0435 \u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u043d\u0430 N\n    transform(re, im, inverse) {\n      const n = this.n, rev = this.rev, cosT = this.cos, sinT = this.sin;\n      for (let i = 0; i < n; i++) {\n        const j = rev[i];\n        if (j > i) {\n          let t = re[i]; re[i] = re[j]; re[j] = t;\n          t = im[i]; im[i] = im[j]; im[j] = t;\n        }\n      }\n      const sgn = inverse ? 1 : -1;\n      for (let size = 2; size <= n; size <<= 1) {\n        const half = size >> 1, step = n / size;\n        for (let i = 0; i < n; i += size) {\n          for (let j = i, k = 0; j < i + half; j++, k += step) {\n            const wr = cosT[k], wi = sgn * sinT[k];\n            const l = j + half;\n            const tr = re[l] * wr - im[l] * wi;\n            const ti = re[l] * wi + im[l] * wr;\n            re[l] = re[j] - tr; im[l] = im[j] - ti;\n            re[j] += tr; im[j] += ti;\n          }\n        }\n      }\n      if (inverse) {\n        const s = 1 / n;\n        for (let i = 0; i < n; i++) { re[i] *= s; im[i] *= s; }\n      }\n    }\n  }\n\n  /* ------------------------------------------------------------------ */\n  /* VoiceCore \u2014 \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0435\u043c\u0431\u0440\u0430                                   */\n  /* ------------------------------------------------------------------ */\n  /** \u0418\u043d\u0434\u0435\u043a\u0441 \u043c\u0438\u043d\u0438\u043c\u0443\u043c\u0430 \u0430\u043c\u043f\u043b\u0438\u0442\u0443\u0434\u044b \u043c\u0435\u0436\u0434\u0443 \u0434\u0432\u0443\u043c\u044f \u043f\u0438\u043a\u0430\u043c\u0438 \u2014 \u0433\u0440\u0430\u043d\u0438\u0446\u0430 \u00ab\u0437\u043e\u043d \u0432\u043b\u0438\u044f\u043d\u0438\u044f\u00bb. */\n  function valley(a, p, q) {\n    let b = p + 1, m = a[b];\n    for (let i = p + 1; i < q; i++) if (a[i] < m) { m = a[i]; b = i; }\n    return b;\n  }\n\n  class VoiceCore {\n    /**\n     * @param {number} sampleRate\n     * @param {{windowMs?: number}} opts  \u0434\u043b\u0438\u043d\u0430 \u043e\u043a\u043d\u0430 \u0430\u043d\u0430\u043b\u0438\u0437\u0430, \u043c\u0441 (21 \u2014 \u043c\u0430\u043b\u0430\u044f \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0430, 43 \u2014 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e)\n     */\n    constructor(sampleRate, opts) {\n      opts = opts || {};\n      this.sr = sampleRate;\n      const ms = opts.windowMs || 43;\n      const N = Math.pow(2, Math.round(Math.log2(sampleRate * ms / 1000)));\n      this.N = Math.max(256, Math.min(8192, N));\n      this.osamp = opts.osamp || 4;\n      this.lock = opts.lock !== false;          // \u0444\u0430\u0437\u043e\u0432\u0430\u044f \u043f\u0440\u0438\u0432\u044f\u0437\u043a\u0430 \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a (\u0447\u0438\u0449\u0435 \u0437\u0432\u0443\u043a)\n      this.unvoicedNoise = opts.unvoiced !== false; // \u0448\u0438\u043f\u044f\u0449\u0438\u0435 \u0438 \u00ab\u0441/\u0448/\u0444\u00bb \u0441\u0438\u043d\u0442\u0435\u0437\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u043a\u0430\u043a \u0448\u0443\u043c, \u0430 \u043d\u0435 \u043a\u0430\u043a \u0442\u043e\u043d\n      this.Ha = this.N / this.osamp;\n      this.half = this.N / 2;\n      this.fft = new FFT(this.N);\n\n      const N_ = this.N, half = this.half;\n      this.win = new Float64Array(N_);\n      let s2 = 0;\n      for (let i = 0; i < N_; i++) {\n        this.win[i] = 0.5 - 0.5 * Math.cos(TWO_PI * i / N_);\n        s2 += this.win[i] * this.win[i];\n      }\n      this.winSq = s2;\n\n      this.re = new Float64Array(N_);\n      this.im = new Float64Array(N_);\n      this.cre = new Float64Array(N_);\n      this.cim = new Float64Array(N_);\n      this.lastPhase = new Float64Array(half + 1);\n      this.sumPhase = new Float64Array(half + 1);\n      this.anaPhase = new Float64Array(half + 1);\n      this.trueFreq = new Float64Array(half + 1);\n      this.logMag = new Float64Array(half + 1);\n      this.logEnv = new Float64Array(half + 1);\n      this.white = new Float64Array(half + 1);\n      this.synFreq = new Float64Array(half + 1);\n      this.frameOut = new Float64Array(N_);\n      this.shape = new Float64Array(half + 1);   // \u0434\u043e\u0431\u0430\u0432\u043a\u0430 \u043a \u043b\u043e\u0433\u0430\u0440\u0438\u0444\u043c\u0443 \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0435\u0439 (\u0433\u043b\u0443\u0431\u0438\u043d\u0430/\u044f\u0440\u043a\u043e\u0441\u0442\u044c)\n      this.breathW = new Float64Array(half + 1); // \u0432\u0435\u0441 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0444\u0430\u0437\u044b \u043f\u043e \u0447\u0430\u0441\u0442\u043e\u0442\u0435\n      this.unvW = new Float64Array(half + 1);    // \u0432\u0435\u0441 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0444\u0430\u0437\u044b \u0434\u043b\u044f \u0431\u0435\u0437\u0433\u043e\u043b\u043e\u0441\u044b\u0445 \u0437\u0432\u0443\u043a\u043e\u0432\n      this.synMag = new Float64Array(half + 1);\n      this.synPh = new Float64Array(half + 1);\n      this.peaks = new Int32Array(half + 1);\n      this.vSm = 0; this.seed = 123456789;          // \u00ab\u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0441\u0442\u044c\u00bb \u043a\u0430\u0434\u0440\u0430 (0 \u2014 \u0448\u0443\u043c, 1 \u2014 \u0447\u0438\u0441\u0442\u044b\u0439 \u0442\u043e\u043d), \u0441\u0433\u043b\u0430\u0436\u0435\u043d\u043d\u0430\u044f\n      this.f0ref = 0;        // \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u043c\u0435\u043d\u044f\u044e\u0449\u0430\u044f\u0441\u044f \u00ab\u0441\u0440\u0435\u0434\u043d\u044f\u044f\u00bb \u0432\u044b\u0441\u043e\u0442\u0430 \u0433\u043e\u0432\u043e\u0440\u044f\u0449\u0435\u0433\u043e (log2 \u0413\u0446)\n      this.dev = 0;          // \u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0432\u044b\u0441\u043e\u0442\u044b \u043e\u0442 \u0441\u0440\u0435\u0434\u043d\u0435\u0439 (\u043e\u043a\u0442\u0430\u0432\u044b)\n      this.drift = 0;        // \u043b\u0451\u0433\u043a\u0430\u044f \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u0430\u044f \u0436\u0438\u0432\u043e\u0441\u0442\u044c\n      this.ratioEff = 1;\n\n      // \u043a\u0435\u043f\u0441\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u00ab\u043b\u0438\u0444\u0442\u0435\u0440\u00bb: \u0447\u0435\u043c \u0431\u043e\u043b\u044c\u0448\u0435, \u0442\u0435\u043c \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435 \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f\n      this.lifter = Math.max(8, Math.round(sampleRate / 700));       // \u0434\u043b\u044f \u0431\u0435\u0437\u0433\u043e\u043b\u043e\u0441\u044b\u0445 \u0437\u0432\u0443\u043a\u043e\u0432\n      this.lifterMin = Math.max(8, Math.round(sampleRate / 900));\n      this.lifterMax = Math.max(this.lifterMin + 1, Math.round(sampleRate / 150));\n      this.qLo = Math.max(10, Math.floor(sampleRate / 400));         // \u043f\u043e\u0438\u0441\u043a \u043f\u0435\u0440\u0438\u043e\u0434\u0430 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0433\u043e \u0442\u043e\u043d\u0430 60..400 \u0413\u0446\n      this.qHi = Math.min(this.half - 2, Math.ceil(sampleRate / 60));\n\n      const binHz = sampleRate / N_;\n      this.binHz = binHz;\n      for (let k = 0; k <= half; k++) {\n        const f = k * binHz;\n        this.breathW[k] = Math.max(0, Math.min(1, (f - 200) / 1000));\n        this.unvW[k] = Math.max(0, Math.min(1, (f - 400) / 1500));\n      }\n\n      // \u043f\u043e\u0442\u043e\u043a\u043e\u0432\u044b\u0435 \u0431\u0443\u0444\u0435\u0440\u044b\n      this.latency = this.N - this.Ha;\n      this.inFifo = new Float32Array(this.N);\n      this.outFifo = new Float32Array(this.Ha);\n      this.accum = new Float64Array(this.N);\n      this.rover = this.latency;\n      this.primed = false;\n\n      this.params = mergeParams();\n      this.setParams(this.params);\n    }\n\n    setParams(p) {\n      const q = this.params = mergeParams(p);\n      this.ratio = Math.pow(2, q.pitch / 12);\n      this.fratio = Math.pow(2, q.formant / 12);\n      this.breath = Math.max(0, Math.min(1, q.breath));\n      this.lively = Math.max(0, Math.min(1.5, q.lively));\n      const half = this.half, binHz = this.binHz;\n      const LN10_20 = Math.LN10 / 20;\n      for (let k = 0; k <= half; k++) {\n        const f = Math.max(k * binHz, 60);\n        let db = 0;\n        // \u044f\u0440\u043a\u043e\u0441\u0442\u044c: \u043d\u0430\u043a\u043b\u043e\u043d \u0441\u043f\u0435\u043a\u0442\u0440\u0430 \u0434\u043e \u00b16 \u0434\u0411/\u043e\u043a\u0442. \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e 1 \u043a\u0413\u0446\n        db += (q.tilt * 6) * Math.log2(f / 1000);\n        // \u0433\u043b\u0443\u0431\u0438\u043d\u0430: \u0431\u0430\u0441 \u0432\u0432\u0435\u0440\u0445, \u0432\u0435\u0440\u0445 \u0432\u043d\u0438\u0437\n        const lo = 1 / (1 + Math.pow(f / 300, 2));\n        const hiR = Math.pow(f / 3500, 2);\n        db += q.depth * (10 * lo - 7 * hiR / (1 + hiR));\n        this.shape[k] = db * LN10_20;\n      }\n    }\n\n    _rnd() { // \u0434\u0435\u0442\u0435\u0440\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440: \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u043d\u0435 \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u0431\u043b\u043e\u043a\u043e\u0432\n      let x = this.seed | 0; x ^= x << 13; x ^= x >>> 17; x ^= x << 5; this.seed = x;\n      return ((x >>> 0) % 1000003) / 1000003;\n    }\n\n    reset() {\n      this.inFifo.fill(0); this.outFifo.fill(0); this.accum.fill(0);\n      this.lastPhase.fill(0); this.sumPhase.fill(0);\n      this.vSm = 0; this.f0ref = 0; this.dev = 0; this.drift = 0; this.seed = 123456789;\n      this.rover = this.latency; this.primed = false;\n    }\n\n    /** \u041e\u0434\u0438\u043d \u043a\u0430\u0434\u0440: inFrame (N \u043e\u0442\u0441\u0447\u0451\u0442\u043e\u0432) -> this.frameOut (N, \u0443\u0436\u0435 \u0441 \u043e\u043a\u043d\u043e\u043c \u0438 \u043d\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u043a\u043e\u0439). hopS \u2014 \u0448\u0430\u0433 \u0441\u0438\u043d\u0442\u0435\u0437\u0430. */\n    _frame(inFrame, hopS) {\n      const N = this.N, half = this.half, re = this.re, im = this.im, win = this.win;\n      const lastPhase = this.lastPhase, sumPhase = this.sumPhase, anaPhase = this.anaPhase;\n      const trueFreq = this.trueFreq, logMag = this.logMag, logEnv = this.logEnv;\n      const white = this.white, synFreq = this.synFreq, shape = this.shape;\n      const cre = this.cre, cim = this.cim;\n      const osamp = this.osamp, fr = this.fratio;\n      let ratio = this.ratio;   // \u0443\u0442\u043e\u0447\u043d\u044f\u0435\u0442\u0441\u044f \u043d\u0438\u0436\u0435: \u00ab\u0436\u0438\u0432\u043e\u0441\u0442\u044c\u00bb \u043c\u0435\u043d\u044f\u0435\u0442 \u0432\u044b\u0441\u043e\u0442\u0443 \u043e\u0442 \u043a\u0430\u0434\u0440\u0430 \u043a \u043a\u0430\u0434\u0440\u0443\n\n      for (let i = 0; i < N; i++) { re[i] = inFrame[i] * win[i]; im[i] = 0; }\n      this.fft.transform(re, im, false);\n\n      // ---- \u0430\u043d\u0430\u043b\u0438\u0437: \u0430\u043c\u043f\u043b\u0438\u0442\u0443\u0434\u0430, \u0438\u0441\u0442\u0438\u043d\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a\u0438 ----\n      const expct = TWO_PI * this.Ha / N;\n      const primed = this.primed;\n      for (let k = 0; k <= half; k++) {\n        const r = re[k], m = im[k];\n        const mag = Math.sqrt(r * r + m * m);\n        const ph = Math.atan2(m, r);\n        anaPhase[k] = ph;\n        logMag[k] = Math.log(mag + 1e-9);\n        if (primed) {\n          let d = ph - lastPhase[k] - k * expct;\n          d -= TWO_PI * Math.round(d / TWO_PI);\n          trueFreq[k] = k + d * osamp / TWO_PI;\n        } else {\n          trueFreq[k] = k;\n        }\n        lastPhase[k] = ph;\n      }\n\n      // ---- \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f \u0441\u043f\u0435\u043a\u0442\u0440\u0430 (\u0444\u043e\u0440\u043c\u0430\u043d\u0442\u044b) \u0447\u0435\u0440\u0435\u0437 \u043a\u0435\u043f\u0441\u0442\u0440 ----\n      for (let k = 0; k <= half; k++) { cre[k] = logMag[k]; cim[k] = 0; }\n      for (let k = 1; k < half; k++) { cre[N - k] = logMag[k]; cim[N - k] = 0; }\n      this.fft.transform(cre, cim, true);\n      // \u0414\u043b\u0438\u043d\u0430 \u043a\u0435\u043f\u0441\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0444\u0438\u043b\u044c\u0442\u0440\u0430 \u043f\u043e\u0434\u0431\u0438\u0440\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0434 \u0432\u044b\u0441\u043e\u0442\u0443 \u0433\u043e\u043b\u043e\u0441\u0430 \u0432 \u044d\u0442\u043e\u043c \u043a\u0430\u0434\u0440\u0435:\n      // \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a\u0438 \u0434\u0430\u044e\u0442 \u043f\u0438\u043a \u0432 \u043a\u0435\u043f\u0441\u0442\u0440\u0435 \u043d\u0430 \u00ab\u043f\u0435\u0440\u0438\u043e\u0434\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0433\u043e \u0442\u043e\u043d\u0430\u00bb. \u0424\u0438\u043b\u044c\u0442\u0440 \u043a\u043e\u0440\u043e\u0447\u0435 \u044d\u0442\u043e\u0433\u043e \u043f\u0438\u043a\u0430,\n      // \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 (\u0444\u043e\u0440\u043c\u0430\u043d\u0442\u044b \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u043c\u044b), \u043d\u043e \u0431\u0435\u0437 \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a.\n      let L = this.lifter, qpk = 0, vpk = 0.12;\n      for (let q = this.qLo; q <= this.qHi; q++) {\n        const c = cre[q];\n        if (c > vpk && c >= cre[q - 1] && c >= cre[q + 1]) { vpk = c; qpk = q; }\n      }\n      if (qpk > 0) L = Math.max(this.lifterMin, Math.min(this.lifterMax, Math.floor(0.8 * qpk)));\n\n      // ---- \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0441\u0442\u044c \u0438 \u0432\u044b\u0441\u043e\u0442\u0430 \u0433\u043e\u043b\u043e\u0441\u0430 \u0432 \u044d\u0442\u043e\u043c \u043a\u0430\u0434\u0440\u0435 (\u043f\u043e \u0442\u043e\u043c\u0443 \u0436\u0435 \u043a\u0435\u043f\u0441\u0442\u0440\u0443, \u0431\u0435\u0437 \u043b\u0438\u0448\u043d\u0438\u0445 \u0437\u0430\u0442\u0440\u0430\u0442) ----\n      const vNow = qpk > 0 ? Math.min(1, 0.35 + (vpk - 0.12) * 4) : 0;\n      this.vSm += (vNow - this.vSm) * 0.5;\n      const vSm = this.vSm;\n      const hopSec = this.Ha / this.sr;\n      if (qpk > 0 && vSm > 0.5) {\n        const ca = cre[qpk - 1], cb = cre[qpk], cc = cre[qpk + 1], den = ca - 2 * cb + cc;\n        const f0 = this.sr / (qpk + (den !== 0 ? 0.5 * (ca - cc) / den : 0));\n        if (f0 > 70 && f0 < 450) {\n          const lf = Math.log2(f0);\n          if (this.f0ref === 0) this.f0ref = lf;\n          else if (Math.abs(lf - this.f0ref) < 0.7) this.f0ref += (lf - this.f0ref) * Math.min(1, hopSec / 2.0);\n          this.dev += ((lf - this.f0ref) - this.dev) * 0.6;\n        }\n      } else this.dev *= 0.85;\n      if (this.lively > 0) {\n        // \u0436\u0438\u0432\u043e\u0441\u0442\u044c: \u0440\u0430\u0437\u043c\u0430\u0445 \u0438\u043d\u0442\u043e\u043d\u0430\u0446\u0438\u0438 \u0448\u0438\u0440\u0435, \u0447\u0435\u043c \u0443 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0439 \u0440\u0435\u0447\u0438, \u043f\u043b\u044e\u0441 \u0435\u0434\u0432\u0430 \u0437\u0430\u043c\u0435\u0442\u043d\u044b\u0439 \u00ab\u0434\u0440\u0435\u0439\u0444\u00bb \u0432\u044b\u0441\u043e\u0442\u044b\n        this.drift += ((this._rnd() * 2 - 1) - this.drift) * 0.18;\n        const semis = this.lively * this.dev * 12 * vSm + this.lively * 0.35 * this.drift * vSm;\n        ratio = this.ratio * Math.pow(2, Math.max(-4, Math.min(4, semis)) / 12);\n      }\n      this.ratioEff = ratio;\n      const taper0 = L * 0.7;\n      for (let q = 0; q <= half; q++) {\n        let w;\n        if (q <= taper0) w = 1;\n        else if (q < L) w = 0.5 + 0.5 * Math.cos(Math.PI * (q - taper0) / (L - taper0));\n        else w = 0;\n        cre[q] *= w;\n        if (q > 0 && q < half) cre[N - q] = cre[q];\n      }\n      for (let q = half + 1; q < N - half; q++) cre[q] = 0;\n      cim.fill(0);\n      this.fft.transform(cre, cim, false);\n      for (let k = 0; k <= half; k++) logEnv[k] = cre[k];\n\n      // ---- \u00ab\u0431\u0435\u043b\u044b\u0439\u00bb \u0441\u043f\u0435\u043a\u0442\u0440 (\u0432\u043e\u0437\u0431\u0443\u0436\u0434\u0435\u043d\u0438\u0435 = \u0441\u043f\u0435\u043a\u0442\u0440 / \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f) ----\n      for (let k = 0; k <= half; k++) white[k] = Math.exp(logMag[k] - logEnv[k]);\n\n      // ---- \u0441\u0438\u043d\u0442\u0435\u0437 ----\n      const outScale = hopS / this.winSq;\n      const breath = this.breath, breathW = this.breathW;\n      const synMag = this.synMag, synPh = this.synPh;\n      const last = half - 1;\n      for (let j = 0; j <= half; j++) {\n        // \u0441\u0434\u0432\u0438\u0433 \u0432\u044b\u0441\u043e\u0442\u044b: \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0435 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 (\u0431\u0435\u0437 \u0434\u044b\u0440 \u0432 \u0441\u043f\u0435\u043a\u0442\u0440\u0435)\n        const s = j / ratio;\n        let mw = 0, sf = j;\n        if (s < last) {\n          const k0 = Math.floor(s), f = s - k0;\n          mw = white[k0] * (1 - f) + white[k0 + 1] * f;\n          const kn = Math.min(half, Math.floor(s + 0.5));\n          sf = trueFreq[kn] * ratio;\n        }\n        synFreq[j] = sf;\n        // \u0441\u0434\u0432\u0438\u0433 \u0444\u043e\u0440\u043c\u0430\u043d\u0442: \u043e\u0433\u0438\u0431\u0430\u044e\u0449\u0430\u044f \u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u043e\u0439 \u0447\u0430\u0441\u0442\u043e\u0442\u044b\n        const se = j / fr;\n        let le;\n        if (se >= half) le = logEnv[half];\n        else {\n          const e0 = Math.floor(se), ef = se - e0;\n          le = logEnv[e0] * (1 - ef) + logEnv[e0 + 1] * ef;\n        }\n        const mag = mw * Math.exp(le + shape[j]);\n\n        let sp;\n        if (!primed) {\n          sp = anaPhase[Math.min(half, Math.floor(s + 0.5))];\n        } else {\n          sp = sumPhase[j] + TWO_PI * sf * hopS / N;\n          sp -= TWO_PI * Math.floor(sp / TWO_PI);\n        }\n        sumPhase[j] = sp;\n        synMag[j] = mag * outScale;\n        synPh[j] = sp;\n      }\n\n      // ---- \u0444\u0430\u0437\u043e\u0432\u0430\u044f \u043f\u0440\u0438\u0432\u044f\u0437\u043a\u0430: \u0432\u0441\u0435 \u0431\u0438\u043d\u044b \u0432\u043e\u043a\u0440\u0443\u0433 \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a\u0438 \u0432\u0435\u0434\u0443\u0442 \u0441\u0435\u0431\u044f \u043a\u0430\u043a \u043e\u0434\u043d\u0430 \u0441\u0438\u043d\u0443\u0441\u043e\u0438\u0434\u0430 ----\n      // (\u0432 \u043f\u0438\u043a\u0435 \u043e\u043a\u043d\u0430 \u0425\u044d\u043d\u043d\u0430 \u0441\u043e\u0441\u0435\u0434\u043d\u0438\u0435 \u0431\u0438\u043d\u044b \u0441\u0434\u0432\u0438\u043d\u0443\u0442\u044b \u0440\u043e\u0432\u043d\u043e \u043d\u0430 \u03c0). \u0411\u0435\u0437 \u044d\u0442\u043e\u0433\u043e \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u043a\u0438 \u00ab\u0440\u0430\u0437\u043c\u0430\u0437\u044b\u0432\u0430\u044e\u0442\u0441\u044f\u00bb,\n      // \u0438 \u0433\u043e\u043b\u043e\u0441 \u0437\u0432\u0443\u0447\u0438\u0442 \u043a\u0430\u043a \u0431\u0443\u0434\u0442\u043e \u0432 \u0442\u0440\u0443\u0431\u0435.\n      const ident = Math.abs(ratio - 1) < 1e-4 && Math.abs(fr - 1) < 1e-4 && !(breath > 0) && !(this.lively > 0);\n      if (this.lock && primed && vSm > 0.5 && !ident) {\n        const peaks = this.peaks;\n        let np = 0, mx = 0;\n        for (let j = 0; j <= half; j++) if (synMag[j] > mx) mx = synMag[j];\n        const thr = mx * 1e-3;\n        for (let j = 2; j < half - 1; j++) {\n          const m = synMag[j];\n          if (m > thr && m > synMag[j - 1] && m >= synMag[j + 1] && m > synMag[j - 2] && m >= synMag[j + 2]) peaks[np++] = j;\n        }\n        if (np > 0) {\n          let pi = 0, cur = peaks[0], next = np > 1 ? peaks[1] : half + 1, bound = np > 1 ? valley(synMag, cur, next) : half + 1;\n          for (let j = 0; j <= half; j++) {\n            while (j > bound && pi < np - 1) {\n              pi++; cur = peaks[pi]; next = pi + 1 < np ? peaks[pi + 1] : half + 1;\n              bound = pi + 1 < np ? valley(synMag, cur, next) : half + 1;\n            }\n            if (j !== cur) {\n              let p2 = synPh[cur] + Math.PI * (j - cur);\n              p2 -= TWO_PI * Math.floor(p2 / TWO_PI);\n              synPh[j] = p2; sumPhase[j] = p2;\n            }\n          }\n        }\n      }\n\n      // ---- \u0448\u0443\u043c \u0434\u043b\u044f \u0431\u0435\u0437\u0433\u043e\u043b\u043e\u0441\u044b\u0445 \u0437\u0432\u0443\u043a\u043e\u0432 \u0438 \u0445\u0440\u0438\u043f\u043e\u0442\u0430: \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0435 \u0444\u0430\u0437\u044b \u0442\u0430\u043c, \u0433\u0434\u0435 \u043d\u0435\u0442 \u0442\u043e\u043d\u0430 ----\n      const unv = (this.unvoicedNoise && !ident) ? (1 - vSm) : 0, unvW = this.unvW;\n      for (let j = 0; j <= half; j++) {\n        let rw = breath > 0 ? breath * breathW[j] : 0;\n        if (unv > 0) { const u = unv * unvW[j]; if (u > rw) rw = u; }\n        const ph = rw > 0 ? synPh[j] + (this._rnd() - 0.5) * TWO_PI * rw : synPh[j];\n        const a = synMag[j];\n        re[j] = a * Math.cos(ph);\n        im[j] = a * Math.sin(ph);\n      }\n      for (let j = 1; j < half; j++) { re[N - j] = re[j]; im[N - j] = -im[j]; }\n      im[0] = 0; im[half] = 0;\n      this.fft.transform(re, im, true);\n      const fo = this.frameOut;\n      for (let i = 0; i < N; i++) fo[i] = re[i] * win[i];\n      this.primed = true;\n    }\n\n    /** \u041f\u043e\u0442\u043e\u043a\u043e\u0432\u0430\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430. \u0417\u0430\u0434\u0435\u0440\u0436\u043a\u0430 = N \u043e\u0442\u0441\u0447\u0451\u0442\u043e\u0432 (N = \u043e\u043a\u043d\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430). \u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0440\u0435\u0447\u0438 \u0437\u0434\u0435\u0441\u044c \u043d\u0435 \u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f. */\n    process(inp, out, n) {\n      n = n || inp.length;\n      const N = this.N, Ha = this.Ha, latency = this.latency;\n      for (let i = 0; i < n; i++) {\n        this.inFifo[this.rover] = inp[i];\n        out[i] = this.outFifo[this.rover - latency];\n        this.rover++;\n        if (this.rover >= N) {\n          this.rover = latency;\n          this._frame(this.inFifo, Ha);\n          const acc = this.accum, fo = this.frameOut;\n          for (let k = 0; k < N; k++) acc[k] += fo[k];\n          for (let k = 0; k < Ha; k++) this.outFifo[k] = acc[k];\n          acc.copyWithin(0, Ha);\n          acc.fill(0, N - Ha);\n          this.inFifo.copyWithin(0, Ha);\n        }\n      }\n    }\n\n    /** \u041e\u0444\u043b\u0430\u0439\u043d-\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0446\u0435\u043b\u043e\u0439 \u0444\u0440\u0430\u0437\u044b (\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438). \u0412\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442 Float32Array. */\n    renderOffline(input) {\n      const N = this.N, Ha = this.Ha;\n      const speed = Math.max(0.4, Math.min(2.5, this.params.speed || 1));\n      const Hs = Math.max(1, Math.round(Ha / speed));\n      const pad = N / 2;\n      const len = input.length;\n      const padded = new Float32Array(len + N + pad + N);\n      padded.set(input, pad);\n      const frames = Math.ceil((len + pad) / Ha) + 2;\n      const outLen = frames * Hs + N;\n      const acc = new Float64Array(outLen);\n      this.reset();\n      const frame = new Float32Array(N);\n      for (let m = 0; m < frames; m++) {\n        const pos = m * Ha;\n        for (let i = 0; i < N; i++) frame[i] = padded[pos + i];\n        this._frame(frame, Hs);\n        const base = m * Hs, fo = this.frameOut;\n        for (let i = 0; i < N; i++) acc[base + i] += fo[i];\n      }\n      const outN = Math.min(outLen - pad, Math.round(len * Hs / Ha));\n      const out = new Float32Array(Math.max(0, outN));\n      for (let i = 0; i < out.length; i++) out[i] = acc[i + pad];\n      return out;\n    }\n  }\n\n  /* ------------------------------------------------------------------ */\n  /* VoiceStack \u2014 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0433\u043e\u043b\u043e\u0441 + \u043d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043f\u0438\u044f \u043d\u0430 \u043e\u043a\u0442\u0430\u0432\u0443 \u043d\u0438\u0436\u0435    */\n  /* ------------------------------------------------------------------ */\n  class VoiceStack {\n    constructor(sampleRate, opts) {\n      this.sr = sampleRate; this.opts = opts || {};\n      this.main = new VoiceCore(sampleRate, this.opts);\n      this.layerCore = null; this.layerBuf = new Float32Array(512);\n      this.params = mergeParams();\n      this.N = this.main.N;\n    }\n    setParams(p) {\n      const q = this.params = mergeParams(p);\n      this.main.setParams(q);\n      if (q.layer > 0.01) {\n        if (!this.layerCore) this.layerCore = new VoiceCore(this.sr, this.opts);\n        this.layerCore.setParams(Object.assign({}, q, { pitch: q.pitch - 12, speed: q.speed }));\n      }\n    }\n    reset() { this.main.reset(); if (this.layerCore) this.layerCore.reset(); }\n    process(inp, out, n) {\n      n = n || inp.length;\n      this.main.process(inp, out, n);\n      const g = this.params.layer;\n      if (g > 0.01 && this.layerCore) {\n        if (this.layerBuf.length < n) this.layerBuf = new Float32Array(n);\n        const b = this.layerBuf;\n        this.layerCore.process(inp, b, n);\n        for (let i = 0; i < n; i++) out[i] += g * b[i];\n      }\n    }\n    renderOffline(input) {\n      const a = this.main.renderOffline(input);\n      const g = this.params.layer;\n      if (g > 0.01 && this.layerCore) {\n        const b = this.layerCore.renderOffline(input), m = Math.min(a.length, b.length);\n        for (let i = 0; i < m; i++) a[i] += g * b[i];\n      }\n      return a;\n    }\n  }\n\n  /* ------------------------------------------------------------------ */\n  /* \u042d\u0444\u0444\u0435\u043a\u0442\u044b: \u0440\u044b\u0447\u0430\u043d\u0438\u0435, \u044d\u0445\u043e, \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c, \u043c\u044f\u0433\u043a\u0438\u0439 \u043b\u0438\u043c\u0438\u0442\u0435\u0440                    */\n  /* ------------------------------------------------------------------ */\n  class Effects {\n    constructor(sampleRate) {\n      this.sr = sampleRate;\n      this.delay = Math.round(sampleRate * 0.23);\n      this.buf = new Float32Array(this.delay);\n      this.wi = 0;\n      this.gPhase = 0;\n      this.params = mergeParams();\n      this.curVol = this.params.volume;\n      this.curEcho = this.params.echo;\n      this.curGrowl = this.params.growl;\n    }\n    setParams(p) { this.params = mergeParams(p); }\n    reset() { this.buf.fill(0); this.wi = 0; this.gPhase = 0; this.curVol = this.params.volume; this.curEcho = this.params.echo; this.curGrowl = this.params.growl; }\n    process(x, n) {\n      n = n || x.length;\n      const p = this.params, buf = this.buf, D = this.delay;\n      const k = 1 - Math.exp(-1 / (0.02 * this.sr)); // \u0441\u0433\u043b\u0430\u0436\u0438\u0432\u0430\u043d\u0438\u0435 ~20 \u043c\u0441\n      let wi = this.wi, gp = this.gPhase;\n      const inc = TWO_PI * 68 / this.sr;\n      for (let i = 0; i < n; i++) {\n        this.curVol += (p.volume - this.curVol) * k;\n        this.curEcho += (p.echo - this.curEcho) * k;\n        this.curGrowl += (p.growl - this.curGrowl) * k;\n        let v = x[i];\n        const gr = this.curGrowl;\n        if (gr > 0.001) {\n          gp += inc; if (gp > TWO_PI) gp -= TWO_PI;\n          v *= 1 - gr * 0.55 * (0.5 + 0.5 * Math.sin(gp));\n          const drive = 1 + 3 * gr;\n          v = Math.tanh(v * drive) / Math.tanh(drive);\n        }\n        let y = v;\n        if (this.curEcho > 0.001 || p.echo > 0) {\n          const d = buf[wi];\n          y = v + this.curEcho * 0.8 * d;\n          buf[wi] = v + 0.42 * d;\n          wi++; if (wi >= D) wi = 0;\n        }\n        y *= this.curVol;\n        const a = Math.abs(y);\n        if (a > 0.8) y = (y < 0 ? -1 : 1) * (0.8 + 0.2 * Math.tanh((a - 0.8) / 0.2));\n        x[i] = y;\n      }\n      this.wi = wi; this.gPhase = gp;\n    }\n  }\n\n  /* ------------------------------------------------------------------ */\n  /* \u0428\u0443\u043c\u043e\u0432\u043e\u0439 \u043f\u043e\u0440\u043e\u0433 (\u0433\u0435\u0439\u0442): \u0442\u0438\u0448\u0438\u043d\u0430 \u0438 \u0444\u043e\u043d\u043e\u0432\u044b\u0439 \u0448\u0443\u043c \u043d\u0435 \u043e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0442\u0441\u044f         */\n  /* ------------------------------------------------------------------ */\n  class NoiseGate {\n    constructor(sampleRate) {\n      this.sr = sampleRate;\n      this.thr = 0.01;      // \u043b\u0438\u043d\u0435\u0439\u043d\u044b\u0439 \u043f\u043e\u0440\u043e\u0433 \u043f\u043e RMS\n      this.holdSamples = Math.round(sampleRate * 0.35);\n      this.hold = 0;\n      this.gain = 0;\n      this.open = false;\n    }\n    setThresholdDb(db) { this.thr = Math.pow(10, db / 20); }\n    process(x, n) {\n      n = n || x.length;\n      let s = 0;\n      for (let i = 0; i < n; i++) s += x[i] * x[i];\n      const rms = Math.sqrt(s / n);\n      if (rms > this.thr) { this.hold = this.holdSamples; this.open = true; }\n      else if (this.hold > 0) { this.hold -= n; if (this.hold <= 0) { this.hold = 0; this.open = false; } }\n      const target = this.open ? 1 : 0;\n      const up = 1 - Math.exp(-1 / (0.004 * this.sr)), dn = 1 - Math.exp(-1 / (0.05 * this.sr));\n      let gn = this.gain;\n      for (let i = 0; i < n; i++) {\n        gn += (target - gn) * (target > gn ? up : dn);\n        x[i] *= gn;\n      }\n      this.gain = gn;\n      return rms;\n    }\n  }\n\n  /** \u0424\u0440\u0430\u0437\u0430 \u0446\u0435\u043b\u0438\u043a\u043e\u043c: \u0442\u0435\u043c\u0431\u0440 + \u044d\u0444\u0444\u0435\u043a\u0442\u044b. \u0412\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442 Float32Array. */\n  function processPhrase(input, sampleRate, params, opts) {\n    opts = opts || {};\n    const p = mergeParams(params);\n    const core = new VoiceStack(sampleRate, { windowMs: opts.windowMs || 43 });\n    core.setParams(p);\n    let out = core.renderOffline(input);\n    return finishPhrase(out, sampleRate, p);\n  }\n\n  /** \u0422\u043e\u043b\u044c\u043a\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u044b (\u0434\u043b\u044f \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430 \u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438): \u0440\u044b\u0447\u0430\u043d\u0438\u0435, \u044d\u0445\u043e, \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c. */\n  function finishPhrase(out, sampleRate, params) {\n    const p = mergeParams(params);\n    const tail = p.echo > 0.01 ? Math.round(sampleRate * 0.9) : 0;\n    if (tail) { const e = new Float32Array(out.length + tail); e.set(out); out = e; }\n    const fx = new Effects(sampleRate);\n    fx.setParams(p); fx.reset();\n    fx.process(out, out.length);\n    return out;\n  }\n\n  g.VCDsp = { DEFAULT_PARAMS, mergeParams, FFT, VoiceCore, VoiceStack, Effects, NoiseGate, processPhrase, finishPhrase };\n})(typeof globalThis !== 'undefined' ? globalThis : (typeof self !== 'undefined' ? self : this));\n\n/*\n * worklet.js \u2014 AudioWorkletProcessor \u00abvc-processor\u00bb.\n * \u0417\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044f \u041f\u041e\u0421\u041b\u0415 dsp-core.js (\u043e\u0431\u0449\u0430\u044f \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c AudioWorkletGlobalScope).\n *\n * \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0432 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 (port.postMessage):\n *   {type:'params', params}            \u2014 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b NPC\n *   {type:'gate', db}                  \u2014 \u043f\u043e\u0440\u043e\u0433 \u0448\u0443\u043c\u043e\u043f\u043e\u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f, \u0434\u0411\n *   {type:'bypass', value}             \u2014 \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0437\u0432\u0443\u043a \u043a\u0430\u043a \u0435\u0441\u0442\u044c (\u0441\u043b\u0443\u0448\u0430\u0442\u044c \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b)\n *   {type:'mute', value}               \u2014 \u0442\u0438\u0448\u0438\u043d\u0430 \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u0435\n *   {type:'capture', value}            \u2014 \u043f\u0440\u0438\u0441\u044b\u043b\u0430\u0442\u044c \u0441\u044b\u0440\u043e\u0439 \u0437\u0432\u0443\u043a \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u0430 (\u0437\u0430\u043f\u0438\u0441\u044c \u0444\u0440\u0430\u0437 / \u0440\u0435\u0436\u0438\u043c \u0444\u0440\u0430\u0437)\n *   {type:'convert', value}            \u2014 false: \u0432\u044b\u0445\u043e\u0434 \u0442\u0438\u0445\u0438\u0439 (\u0440\u0435\u0436\u0438\u043c \u0444\u0440\u0430\u0437: \u0437\u0432\u0443\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0438\u0448\u0435\u043c)\n * \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e\u0442 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430:\n *   {type:'meter', inRms, outRms, gate}\n *   {type:'pcm', data: Float32Array}   \u2014 \u043f\u043e\u0440\u0446\u0438\u0438 \u043f\u043e ~1024 \u043e\u0442\u0441\u0447\u0451\u0442\u0430 (\u0435\u0441\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0451\u043d capture)\n *   {type:'feedback'}                  \u2014 \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u0441\u0432\u044f\u0437\u044c (\u0437\u0432\u043e\u043d), \u0432\u044b\u0445\u043e\u0434 \u0437\u0430\u0433\u043b\u0443\u0448\u0451\u043d\n */\nclass VCProcessor extends AudioWorkletProcessor {\n  constructor(options) {\n    super();\n    const o = (options && options.processorOptions) || {};\n    this.core = new VCDsp.VoiceStack(sampleRate, { windowMs: o.windowMs || 43 });\n    this.fx = new VCDsp.Effects(sampleRate);\n    this.gate = new VCDsp.NoiseGate(sampleRate);\n    this.gate.setThresholdDb(o.gateDb == null ? -45 : o.gateDb);\n    this.bypass = false;\n    this.mute = false;\n    this.capture = false;\n    this.convert = true;\n    this.muteGain = 1;\n    this.tmp = new Float32Array(128);\n    this.pcm = new Float32Array(1024);\n    this.pcmPos = 0;\n    this.meterCount = 0;\n    this.inAcc = 0; this.outAcc = 0; this.accN = 0;\n    // \u0437\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u0438: \u0434\u043e\u043b\u0433\u0438\u0439 \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u044b\u0439 \u0433\u0440\u043e\u043c\u043a\u0438\u0439 \u0432\u044b\u0445\u043e\u0434 \u0431\u0435\u0437 \u043f\u0430\u0443\u0437\n    this.loudRun = 0; this.dipRun = 0; this.fbSent = false;\n\n    this.port.onmessage = (e) => {\n      const m = e.data || {};\n      switch (m.type) {\n        case 'params': this.core.setParams(m.params); this.fx.setParams(m.params); break;\n        case 'gate': this.gate.setThresholdDb(m.db); break;\n        case 'bypass': this.bypass = !!m.value; break;\n        case 'mute': this.mute = !!m.value; if (!this.mute) { this.fbSent = false; this.loudRun = 0; } break;\n        case 'capture': this.capture = !!m.value; this.pcmPos = 0; break;\n        case 'convert': this.convert = !!m.value; break;\n        case 'reset': this.core.reset(); this.fx.reset(); break;\n      }\n    };\n  }\n\n  process(inputs, outputs) {\n    const out = outputs[0] && outputs[0][0];\n    if (!out) return true;\n    const n = out.length;\n    const inp = inputs[0] && inputs[0][0];\n    if (this.tmp.length < n) this.tmp = new Float32Array(n);\n    const x = this.tmp;\n    if (inp) for (let i = 0; i < n; i++) x[i] = inp[i]; else x.fill(0, 0, n);\n\n    // \u0441\u044b\u0440\u043e\u0439 \u0437\u0432\u0443\u043a \u043d\u0430\u0440\u0443\u0436\u0443 (\u0440\u0435\u0436\u0438\u043c \u0444\u0440\u0430\u0437 / \u0437\u0430\u043f\u0438\u0441\u044c \u0442\u0435\u0441\u0442\u0430)\n    if (this.capture) {\n      for (let i = 0; i < n; i++) {\n        this.pcm[this.pcmPos++] = x[i];\n        if (this.pcmPos >= this.pcm.length) {\n          const copy = this.pcm.slice(0);\n          this.port.postMessage({ type: 'pcm', data: copy }, [copy.buffer]);\n          this.pcmPos = 0;\n        }\n      }\n    }\n\n    let inRms = 0;\n    for (let i = 0; i < n; i++) inRms += x[i] * x[i];\n    inRms = Math.sqrt(inRms / n);\n\n    if (this.bypass) {\n      for (let i = 0; i < n; i++) out[i] = x[i];\n    } else if (!this.convert) {\n      out.fill(0, 0, n);\n    } else {\n      this.gate.process(x, n);\n      this.core.process(x, out, n);\n      this.fx.process(out, n);\n    }\n\n    // \u043f\u043b\u0430\u0432\u043d\u043e\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435/\u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0437\u0432\u0443\u043a\u0430 (\u0437\u0430\u0449\u0438\u0442\u0430)\n    const target = this.mute ? 0 : 1;\n    for (let i = 0; i < n; i++) {\n      this.muteGain += (target - this.muteGain) * 0.01;\n      out[i] *= this.muteGain;\n    }\n\n    let outRms = 0;\n    for (let i = 0; i < n; i++) outRms += out[i] * out[i];\n    outRms = Math.sqrt(outRms / n);\n\n    // \u0434\u0435\u0442\u0435\u043a\u0442\u043e\u0440 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u0438\n    const blockSec = n / sampleRate;\n    if (!this.bypass && this.convert) {\n      if (outRms > 0.12) { this.loudRun += blockSec; this.dipRun = 0; }\n      else if (outRms < 0.03) { this.dipRun += blockSec; if (this.dipRun > 0.08) this.loudRun = 0; }\n      if (this.loudRun > 4 && !this.fbSent && !this.mute) {\n        this.fbSent = true; this.mute = true;\n        this.port.postMessage({ type: 'feedback' });\n      }\n    }\n\n    this.inAcc += inRms; this.outAcc += outRms; this.accN++;\n    this.meterCount += blockSec;\n    if (this.meterCount >= 0.04) {\n      this.port.postMessage({\n        type: 'meter', inRms: this.inAcc / this.accN, outRms: this.outAcc / this.accN, gate: this.gate.open\n      });\n      this.meterCount = 0; this.inAcc = 0; this.outAcc = 0; this.accN = 0;\n    }\n    return true;\n  }\n}\nregisterProcessor('vc-processor', VCProcessor);\n";
+/*
+ * dsp-core.js — ядро преобразования тембра голоса.
+ *
+ * Классический скрипт (не модуль): один и тот же код работает
+ *  - в AudioWorklet (живой режим, потоковая обработка),
+ *  - на обычной странице (режим фраз, офлайн-обработка),
+ *  - в Node (автотесты).
+ *
+ * Метод: фазовый вокодер с РАЗДЕЛЕНИЕМ источника и фильтра.
+ *   1. Спектр кадра делится на огибающую (форманты = «тембр голосового тракта»,
+ *      считается через кепстр) и возбуждение (гармоники = «высота»).
+ *   2. Возбуждение сдвигается по высоте (pitch), огибающая — независимо (форманты).
+ *      Поэтому тембр меняется, а не только высота.
+ *   3. Поверх: хрипота/шёпот (случайные фазы), глубина и яркость (форма огибающей),
+ *      рычание, эхо, громкость, мягкий лимитер.
+ *
+ * Это классическая обработка сигнала, а не нейросеть. Нейросетевое преобразование
+ * (RVC) подключается отдельно через сервер на компьютере (см. server/).
+ */
+(function (g) {
+  'use strict';
+
+  const TWO_PI = Math.PI * 2;
+
+  /* ------------------------------------------------------------------ */
+  /* Параметры по умолчанию и их границы                                 */
+  /* ------------------------------------------------------------------ */
+  const DEFAULT_PARAMS = {
+    pitch: 0,     // полутона, -12..+12  — высота голоса
+    formant: 0,   // полутона, -8..+8    — тембр (сдвиг формант)
+    depth: 0,     // 0..1                — глубина (бас, тёмный звук)
+    tilt: 0,      // -1..+1              — яркость (наклон спектра)
+    breath: 0,    // 0..1                — хрипота / шёпот
+    growl: 0,     // 0..1                — рычание
+    echo: 0,      // 0..1                — эхо
+    speed: 1,     // 0.6..1.6            — скорость речи (только режим фраз)
+    volume: 1,    // 0..2                — громкость
+    lively: 0,    // 0..1.5              — живость: шире интонация + лёгкий дрейф высоты
+    layer: 0      // 0..1                — раздвоение: добавляет копию голоса на октаву ниже
+  };
+
+  function mergeParams(p) {
+    const o = Object.assign({}, DEFAULT_PARAMS);
+    if (p) for (const k in DEFAULT_PARAMS) if (typeof p[k] === 'number' && isFinite(p[k])) o[k] = p[k];
+    return o;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* БПФ (radix-2)                                                       */
+  /* ------------------------------------------------------------------ */
+  class FFT {
+    constructor(n) {
+      this.n = n;
+      const levels = Math.round(Math.log2(n));
+      if ((1 << levels) !== n) throw new Error('FFT size must be a power of two');
+      this.cos = new Float64Array(n / 2);
+      this.sin = new Float64Array(n / 2);
+      for (let i = 0; i < n / 2; i++) {
+        this.cos[i] = Math.cos(TWO_PI * i / n);
+        this.sin[i] = Math.sin(TWO_PI * i / n);
+      }
+      this.rev = new Uint32Array(n);
+      for (let i = 0; i < n; i++) {
+        let r = 0, x = i;
+        for (let b = 0; b < levels; b++) { r = (r << 1) | (x & 1); x >>= 1; }
+        this.rev[i] = r;
+      }
+    }
+    // прямое: X[k] = sum x[n] e^{-i2πkn/N}; обратное включает деление на N
+    transform(re, im, inverse) {
+      const n = this.n, rev = this.rev, cosT = this.cos, sinT = this.sin;
+      for (let i = 0; i < n; i++) {
+        const j = rev[i];
+        if (j > i) {
+          let t = re[i]; re[i] = re[j]; re[j] = t;
+          t = im[i]; im[i] = im[j]; im[j] = t;
+        }
+      }
+      const sgn = inverse ? 1 : -1;
+      for (let size = 2; size <= n; size <<= 1) {
+        const half = size >> 1, step = n / size;
+        for (let i = 0; i < n; i += size) {
+          for (let j = i, k = 0; j < i + half; j++, k += step) {
+            const wr = cosT[k], wi = sgn * sinT[k];
+            const l = j + half;
+            const tr = re[l] * wr - im[l] * wi;
+            const ti = re[l] * wi + im[l] * wr;
+            re[l] = re[j] - tr; im[l] = im[j] - ti;
+            re[j] += tr; im[j] += ti;
+          }
+        }
+      }
+      if (inverse) {
+        const s = 1 / n;
+        for (let i = 0; i < n; i++) { re[i] *= s; im[i] *= s; }
+      }
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* VoiceCore — преобразование тембра                                   */
+  /* ------------------------------------------------------------------ */
+  /** Индекс минимума амплитуды между двумя пиками — граница «зон влияния». */
+  function valley(a, p, q) {
+    let b = p + 1, m = a[b];
+    for (let i = p + 1; i < q; i++) if (a[i] < m) { m = a[i]; b = i; }
+    return b;
+  }
+
+  class VoiceCore {
+    /**
+     * @param {number} sampleRate
+     * @param {{windowMs?: number}} opts  длина окна анализа, мс (21 — малая задержка, 43 — качество)
+     */
+    constructor(sampleRate, opts) {
+      opts = opts || {};
+      this.sr = sampleRate;
+      const ms = opts.windowMs || 43;
+      const N = Math.pow(2, Math.round(Math.log2(sampleRate * ms / 1000)));
+      this.N = Math.max(256, Math.min(8192, N));
+      this.osamp = opts.osamp || 4;
+      this.lock = opts.lock !== false;          // фазовая привязка гармоник (чище звук)
+      this.unvoicedNoise = opts.unvoiced !== false; // шипящие и «с/ш/ф» синтезируются как шум, а не как тон
+      this.Ha = this.N / this.osamp;
+      this.half = this.N / 2;
+      this.fft = new FFT(this.N);
+
+      const N_ = this.N, half = this.half;
+      this.win = new Float64Array(N_);
+      let s2 = 0;
+      for (let i = 0; i < N_; i++) {
+        this.win[i] = 0.5 - 0.5 * Math.cos(TWO_PI * i / N_);
+        s2 += this.win[i] * this.win[i];
+      }
+      this.winSq = s2;
+
+      this.re = new Float64Array(N_);
+      this.im = new Float64Array(N_);
+      this.cre = new Float64Array(N_);
+      this.cim = new Float64Array(N_);
+      this.lastPhase = new Float64Array(half + 1);
+      this.sumPhase = new Float64Array(half + 1);
+      this.anaPhase = new Float64Array(half + 1);
+      this.trueFreq = new Float64Array(half + 1);
+      this.logMag = new Float64Array(half + 1);
+      this.logEnv = new Float64Array(half + 1);
+      this.white = new Float64Array(half + 1);
+      this.synFreq = new Float64Array(half + 1);
+      this.frameOut = new Float64Array(N_);
+      this.shape = new Float64Array(half + 1);   // добавка к логарифму огибающей (глубина/яркость)
+      this.breathW = new Float64Array(half + 1); // вес случайной фазы по частоте
+      this.unvW = new Float64Array(half + 1);    // вес случайной фазы для безголосых звуков
+      this.synMag = new Float64Array(half + 1);
+      this.synPh = new Float64Array(half + 1);
+      this.peaks = new Int32Array(half + 1);
+      this.vSm = 0; this.seed = 123456789;          // «голосовость» кадра (0 — шум, 1 — чистый тон), сглаженная
+      this.f0ref = 0;        // медленно меняющаяся «средняя» высота говорящего (log2 Гц)
+      this.dev = 0;          // отклонение текущей высоты от средней (октавы)
+      this.drift = 0;        // лёгкая случайная живость
+      this.ratioEff = 1;
+
+      // кепстральный «лифтер»: чем больше, тем подробнее огибающая
+      this.lifter = Math.max(8, Math.round(sampleRate / 700));       // для безголосых звуков
+      this.lifterMin = Math.max(8, Math.round(sampleRate / 900));
+      this.lifterMax = Math.max(this.lifterMin + 1, Math.round(sampleRate / 150));
+      this.qLo = Math.max(10, Math.floor(sampleRate / 400));         // поиск периода основного тона 60..400 Гц
+      this.qHi = Math.min(this.half - 2, Math.ceil(sampleRate / 60));
+
+      const binHz = sampleRate / N_;
+      this.binHz = binHz;
+      for (let k = 0; k <= half; k++) {
+        const f = k * binHz;
+        this.breathW[k] = Math.max(0, Math.min(1, (f - 200) / 1000));
+        this.unvW[k] = Math.max(0, Math.min(1, (f - 400) / 1500));
+      }
+
+      // потоковые буферы
+      this.latency = this.N - this.Ha;
+      this.inFifo = new Float32Array(this.N);
+      this.outFifo = new Float32Array(this.Ha);
+      this.accum = new Float64Array(this.N);
+      this.rover = this.latency;
+      this.primed = false;
+
+      this.params = mergeParams();
+      this.setParams(this.params);
+    }
+
+    setParams(p) {
+      const q = this.params = mergeParams(p);
+      this.ratio = Math.pow(2, q.pitch / 12);
+      this.fratio = Math.pow(2, q.formant / 12);
+      this.breath = Math.max(0, Math.min(1, q.breath));
+      this.lively = Math.max(0, Math.min(1.5, q.lively));
+      const half = this.half, binHz = this.binHz;
+      const LN10_20 = Math.LN10 / 20;
+      for (let k = 0; k <= half; k++) {
+        const f = Math.max(k * binHz, 60);
+        let db = 0;
+        // яркость: наклон спектра до ±6 дБ/окт. относительно 1 кГц
+        db += (q.tilt * 6) * Math.log2(f / 1000);
+        // глубина: бас вверх, верх вниз
+        const lo = 1 / (1 + Math.pow(f / 300, 2));
+        const hiR = Math.pow(f / 3500, 2);
+        db += q.depth * (10 * lo - 7 * hiR / (1 + hiR));
+        this.shape[k] = db * LN10_20;
+      }
+    }
+
+    _rnd() { // детерминированный генератор: результат не зависит от размера блоков
+      let x = this.seed | 0; x ^= x << 13; x ^= x >>> 17; x ^= x << 5; this.seed = x;
+      return ((x >>> 0) % 1000003) / 1000003;
+    }
+
+    reset() {
+      this.inFifo.fill(0); this.outFifo.fill(0); this.accum.fill(0);
+      this.lastPhase.fill(0); this.sumPhase.fill(0);
+      this.vSm = 0; this.f0ref = 0; this.dev = 0; this.drift = 0; this.seed = 123456789;
+      this.rover = this.latency; this.primed = false;
+    }
+
+    /** Один кадр: inFrame (N отсчётов) -> this.frameOut (N, уже с окном и нормировкой). hopS — шаг синтеза. */
+    _frame(inFrame, hopS) {
+      const N = this.N, half = this.half, re = this.re, im = this.im, win = this.win;
+      const lastPhase = this.lastPhase, sumPhase = this.sumPhase, anaPhase = this.anaPhase;
+      const trueFreq = this.trueFreq, logMag = this.logMag, logEnv = this.logEnv;
+      const white = this.white, synFreq = this.synFreq, shape = this.shape;
+      const cre = this.cre, cim = this.cim;
+      const osamp = this.osamp, fr = this.fratio;
+      let ratio = this.ratio;   // уточняется ниже: «живость» меняет высоту от кадра к кадру
+
+      for (let i = 0; i < N; i++) { re[i] = inFrame[i] * win[i]; im[i] = 0; }
+      this.fft.transform(re, im, false);
+
+      // ---- анализ: амплитуда, истинная частота каждой гармоники ----
+      const expct = TWO_PI * this.Ha / N;
+      const primed = this.primed;
+      for (let k = 0; k <= half; k++) {
+        const r = re[k], m = im[k];
+        const mag = Math.sqrt(r * r + m * m);
+        const ph = Math.atan2(m, r);
+        anaPhase[k] = ph;
+        logMag[k] = Math.log(mag + 1e-9);
+        if (primed) {
+          let d = ph - lastPhase[k] - k * expct;
+          d -= TWO_PI * Math.round(d / TWO_PI);
+          trueFreq[k] = k + d * osamp / TWO_PI;
+        } else {
+          trueFreq[k] = k;
+        }
+        lastPhase[k] = ph;
+      }
+
+      // ---- огибающая спектра (форманты) через кепстр ----
+      for (let k = 0; k <= half; k++) { cre[k] = logMag[k]; cim[k] = 0; }
+      for (let k = 1; k < half; k++) { cre[N - k] = logMag[k]; cim[N - k] = 0; }
+      this.fft.transform(cre, cim, true);
+      // Длина кепстрального фильтра подбирается под высоту голоса в этом кадре:
+      // гармоники дают пик в кепстре на «периоде основного тона». Фильтр короче этого пика,
+      // поэтому огибающая получается подробной (форманты различимы), но без гармоник.
+      let L = this.lifter, qpk = 0, vpk = 0.12;
+      for (let q = this.qLo; q <= this.qHi; q++) {
+        const c = cre[q];
+        if (c > vpk && c >= cre[q - 1] && c >= cre[q + 1]) { vpk = c; qpk = q; }
+      }
+      if (qpk > 0) L = Math.max(this.lifterMin, Math.min(this.lifterMax, Math.floor(0.8 * qpk)));
+
+      // ---- голосовость и высота голоса в этом кадре (по тому же кепстру, без лишних затрат) ----
+      const vNow = qpk > 0 ? Math.min(1, 0.35 + (vpk - 0.12) * 4) : 0;
+      this.vSm += (vNow - this.vSm) * 0.5;
+      const vSm = this.vSm;
+      const hopSec = this.Ha / this.sr;
+      if (qpk > 0 && vSm > 0.5) {
+        const ca = cre[qpk - 1], cb = cre[qpk], cc = cre[qpk + 1], den = ca - 2 * cb + cc;
+        const f0 = this.sr / (qpk + (den !== 0 ? 0.5 * (ca - cc) / den : 0));
+        if (f0 > 70 && f0 < 450) {
+          const lf = Math.log2(f0);
+          if (this.f0ref === 0) this.f0ref = lf;
+          else if (Math.abs(lf - this.f0ref) < 0.7) this.f0ref += (lf - this.f0ref) * Math.min(1, hopSec / 2.0);
+          this.dev += ((lf - this.f0ref) - this.dev) * 0.6;
+        }
+      } else this.dev *= 0.85;
+      if (this.lively > 0) {
+        // живость: размах интонации шире, чем у исходной речи, плюс едва заметный «дрейф» высоты
+        this.drift += ((this._rnd() * 2 - 1) - this.drift) * 0.18;
+        const semis = this.lively * this.dev * 12 * vSm + this.lively * 0.35 * this.drift * vSm;
+        ratio = this.ratio * Math.pow(2, Math.max(-4, Math.min(4, semis)) / 12);
+      }
+      this.ratioEff = ratio;
+      const taper0 = L * 0.7;
+      for (let q = 0; q <= half; q++) {
+        let w;
+        if (q <= taper0) w = 1;
+        else if (q < L) w = 0.5 + 0.5 * Math.cos(Math.PI * (q - taper0) / (L - taper0));
+        else w = 0;
+        cre[q] *= w;
+        if (q > 0 && q < half) cre[N - q] = cre[q];
+      }
+      for (let q = half + 1; q < N - half; q++) cre[q] = 0;
+      cim.fill(0);
+      this.fft.transform(cre, cim, false);
+      for (let k = 0; k <= half; k++) logEnv[k] = cre[k];
+
+      // ---- «белый» спектр (возбуждение = спектр / огибающая) ----
+      for (let k = 0; k <= half; k++) white[k] = Math.exp(logMag[k] - logEnv[k]);
+
+      // ---- синтез ----
+      const outScale = hopS / this.winSq;
+      const breath = this.breath, breathW = this.breathW;
+      const synMag = this.synMag, synPh = this.synPh;
+      const last = half - 1;
+      for (let j = 0; j <= half; j++) {
+        // сдвиг высоты: обратное отображение (без дыр в спектре)
+        const s = j / ratio;
+        let mw = 0, sf = j;
+        if (s < last) {
+          const k0 = Math.floor(s), f = s - k0;
+          mw = white[k0] * (1 - f) + white[k0 + 1] * f;
+          const kn = Math.min(half, Math.floor(s + 0.5));
+          sf = trueFreq[kn] * ratio;
+        }
+        synFreq[j] = sf;
+        // сдвиг формант: огибающая читается с другой частоты
+        const se = j / fr;
+        let le;
+        if (se >= half) le = logEnv[half];
+        else {
+          const e0 = Math.floor(se), ef = se - e0;
+          le = logEnv[e0] * (1 - ef) + logEnv[e0 + 1] * ef;
+        }
+        const mag = mw * Math.exp(le + shape[j]);
+
+        let sp;
+        if (!primed) {
+          sp = anaPhase[Math.min(half, Math.floor(s + 0.5))];
+        } else {
+          sp = sumPhase[j] + TWO_PI * sf * hopS / N;
+          sp -= TWO_PI * Math.floor(sp / TWO_PI);
+        }
+        sumPhase[j] = sp;
+        synMag[j] = mag * outScale;
+        synPh[j] = sp;
+      }
+
+      // ---- фазовая привязка: все бины вокруг гармоники ведут себя как одна синусоида ----
+      // (в пике окна Хэнна соседние бины сдвинуты ровно на π). Без этого гармоники «размазываются»,
+      // и голос звучит как будто в трубе.
+      const ident = Math.abs(ratio - 1) < 1e-4 && Math.abs(fr - 1) < 1e-4 && !(breath > 0) && !(this.lively > 0);
+      if (this.lock && primed && vSm > 0.5 && !ident) {
+        const peaks = this.peaks;
+        let np = 0, mx = 0;
+        for (let j = 0; j <= half; j++) if (synMag[j] > mx) mx = synMag[j];
+        const thr = mx * 1e-3;
+        for (let j = 2; j < half - 1; j++) {
+          const m = synMag[j];
+          if (m > thr && m > synMag[j - 1] && m >= synMag[j + 1] && m > synMag[j - 2] && m >= synMag[j + 2]) peaks[np++] = j;
+        }
+        if (np > 0) {
+          let pi = 0, cur = peaks[0], next = np > 1 ? peaks[1] : half + 1, bound = np > 1 ? valley(synMag, cur, next) : half + 1;
+          for (let j = 0; j <= half; j++) {
+            while (j > bound && pi < np - 1) {
+              pi++; cur = peaks[pi]; next = pi + 1 < np ? peaks[pi + 1] : half + 1;
+              bound = pi + 1 < np ? valley(synMag, cur, next) : half + 1;
+            }
+            if (j !== cur) {
+              let p2 = synPh[cur] + Math.PI * (j - cur);
+              p2 -= TWO_PI * Math.floor(p2 / TWO_PI);
+              synPh[j] = p2; sumPhase[j] = p2;
+            }
+          }
+        }
+      }
+
+      // ---- шум для безголосых звуков и хрипота: случайные фазы там, где нет тона ----
+      const unv = (this.unvoicedNoise && !ident) ? (1 - vSm) : 0, unvW = this.unvW;
+      for (let j = 0; j <= half; j++) {
+        let rw = breath > 0 ? breath * breathW[j] : 0;
+        if (unv > 0) { const u = unv * unvW[j]; if (u > rw) rw = u; }
+        const ph = rw > 0 ? synPh[j] + (this._rnd() - 0.5) * TWO_PI * rw : synPh[j];
+        const a = synMag[j];
+        re[j] = a * Math.cos(ph);
+        im[j] = a * Math.sin(ph);
+      }
+      for (let j = 1; j < half; j++) { re[N - j] = re[j]; im[N - j] = -im[j]; }
+      im[0] = 0; im[half] = 0;
+      this.fft.transform(re, im, true);
+      const fo = this.frameOut;
+      for (let i = 0; i < N; i++) fo[i] = re[i] * win[i];
+      this.primed = true;
+    }
+
+    /** Потоковая обработка. Задержка = N отсчётов (N = окно анализа). Скорость речи здесь не меняется. */
+    process(inp, out, n) {
+      n = n || inp.length;
+      const N = this.N, Ha = this.Ha, latency = this.latency;
+      for (let i = 0; i < n; i++) {
+        this.inFifo[this.rover] = inp[i];
+        out[i] = this.outFifo[this.rover - latency];
+        this.rover++;
+        if (this.rover >= N) {
+          this.rover = latency;
+          this._frame(this.inFifo, Ha);
+          const acc = this.accum, fo = this.frameOut;
+          for (let k = 0; k < N; k++) acc[k] += fo[k];
+          for (let k = 0; k < Ha; k++) this.outFifo[k] = acc[k];
+          acc.copyWithin(0, Ha);
+          acc.fill(0, N - Ha);
+          this.inFifo.copyWithin(0, Ha);
+        }
+      }
+    }
+
+    /** Офлайн-обработка целой фразы (поддерживает изменение скорости). Возвращает Float32Array. */
+    renderOffline(input) {
+      const N = this.N, Ha = this.Ha;
+      const speed = Math.max(0.4, Math.min(2.5, this.params.speed || 1));
+      const Hs = Math.max(1, Math.round(Ha / speed));
+      const pad = N / 2;
+      const len = input.length;
+      const padded = new Float32Array(len + N + pad + N);
+      padded.set(input, pad);
+      const frames = Math.ceil((len + pad) / Ha) + 2;
+      const outLen = frames * Hs + N;
+      const acc = new Float64Array(outLen);
+      this.reset();
+      const frame = new Float32Array(N);
+      for (let m = 0; m < frames; m++) {
+        const pos = m * Ha;
+        for (let i = 0; i < N; i++) frame[i] = padded[pos + i];
+        this._frame(frame, Hs);
+        const base = m * Hs, fo = this.frameOut;
+        for (let i = 0; i < N; i++) acc[base + i] += fo[i];
+      }
+      const outN = Math.min(outLen - pad, Math.round(len * Hs / Ha));
+      const out = new Float32Array(Math.max(0, outN));
+      for (let i = 0; i < out.length; i++) out[i] = acc[i + pad];
+      return out;
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* VoiceStack — основной голос + необязательная копия на октаву ниже    */
+  /* ------------------------------------------------------------------ */
+  class VoiceStack {
+    constructor(sampleRate, opts) {
+      this.sr = sampleRate; this.opts = opts || {};
+      this.main = new VoiceCore(sampleRate, this.opts);
+      this.layerCore = null; this.layerBuf = new Float32Array(512);
+      this.params = mergeParams();
+      this.N = this.main.N;
+    }
+    setParams(p) {
+      const q = this.params = mergeParams(p);
+      this.main.setParams(q);
+      if (q.layer > 0.01) {
+        if (!this.layerCore) this.layerCore = new VoiceCore(this.sr, this.opts);
+        this.layerCore.setParams(Object.assign({}, q, { pitch: q.pitch - 12, speed: q.speed }));
+      }
+    }
+    reset() { this.main.reset(); if (this.layerCore) this.layerCore.reset(); }
+    process(inp, out, n) {
+      n = n || inp.length;
+      this.main.process(inp, out, n);
+      const g = this.params.layer;
+      if (g > 0.01 && this.layerCore) {
+        if (this.layerBuf.length < n) this.layerBuf = new Float32Array(n);
+        const b = this.layerBuf;
+        this.layerCore.process(inp, b, n);
+        for (let i = 0; i < n; i++) out[i] += g * b[i];
+      }
+    }
+    renderOffline(input) {
+      const a = this.main.renderOffline(input);
+      const g = this.params.layer;
+      if (g > 0.01 && this.layerCore) {
+        const b = this.layerCore.renderOffline(input), m = Math.min(a.length, b.length);
+        for (let i = 0; i < m; i++) a[i] += g * b[i];
+      }
+      return a;
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Эффекты: рычание, эхо, громкость, мягкий лимитер                    */
+  /* ------------------------------------------------------------------ */
+  class Effects {
+    constructor(sampleRate) {
+      this.sr = sampleRate;
+      this.delay = Math.round(sampleRate * 0.23);
+      this.buf = new Float32Array(this.delay);
+      this.wi = 0;
+      this.gPhase = 0;
+      this.params = mergeParams();
+      this.curVol = this.params.volume;
+      this.curEcho = this.params.echo;
+      this.curGrowl = this.params.growl;
+    }
+    setParams(p) { this.params = mergeParams(p); }
+    reset() { this.buf.fill(0); this.wi = 0; this.gPhase = 0; this.curVol = this.params.volume; this.curEcho = this.params.echo; this.curGrowl = this.params.growl; }
+    process(x, n) {
+      n = n || x.length;
+      const p = this.params, buf = this.buf, D = this.delay;
+      const k = 1 - Math.exp(-1 / (0.02 * this.sr)); // сглаживание ~20 мс
+      let wi = this.wi, gp = this.gPhase;
+      const inc = TWO_PI * 68 / this.sr;
+      for (let i = 0; i < n; i++) {
+        this.curVol += (p.volume - this.curVol) * k;
+        this.curEcho += (p.echo - this.curEcho) * k;
+        this.curGrowl += (p.growl - this.curGrowl) * k;
+        let v = x[i];
+        const gr = this.curGrowl;
+        if (gr > 0.001) {
+          gp += inc; if (gp > TWO_PI) gp -= TWO_PI;
+          v *= 1 - gr * 0.55 * (0.5 + 0.5 * Math.sin(gp));
+          const drive = 1 + 3 * gr;
+          v = Math.tanh(v * drive) / Math.tanh(drive);
+        }
+        let y = v;
+        if (this.curEcho > 0.001 || p.echo > 0) {
+          const d = buf[wi];
+          y = v + this.curEcho * 0.8 * d;
+          buf[wi] = v + 0.42 * d;
+          wi++; if (wi >= D) wi = 0;
+        }
+        y *= this.curVol;
+        const a = Math.abs(y);
+        if (a > 0.8) y = (y < 0 ? -1 : 1) * (0.8 + 0.2 * Math.tanh((a - 0.8) / 0.2));
+        x[i] = y;
+      }
+      this.wi = wi; this.gPhase = gp;
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Шумовой порог (гейт): тишина и фоновый шум не обрабатываются         */
+  /* ------------------------------------------------------------------ */
+  class NoiseGate {
+    constructor(sampleRate) {
+      this.sr = sampleRate;
+      this.thr = 0.01;      // линейный порог по RMS
+      this.holdSamples = Math.round(sampleRate * 0.35);
+      this.hold = 0;
+      this.gain = 0;
+      this.open = false;
+    }
+    setThresholdDb(db) { this.thr = Math.pow(10, db / 20); }
+    process(x, n) {
+      n = n || x.length;
+      let s = 0;
+      for (let i = 0; i < n; i++) s += x[i] * x[i];
+      const rms = Math.sqrt(s / n);
+      if (rms > this.thr) { this.hold = this.holdSamples; this.open = true; }
+      else if (this.hold > 0) { this.hold -= n; if (this.hold <= 0) { this.hold = 0; this.open = false; } }
+      const target = this.open ? 1 : 0;
+      const up = 1 - Math.exp(-1 / (0.004 * this.sr)), dn = 1 - Math.exp(-1 / (0.05 * this.sr));
+      let gn = this.gain;
+      for (let i = 0; i < n; i++) {
+        gn += (target - gn) * (target > gn ? up : dn);
+        x[i] *= gn;
+      }
+      this.gain = gn;
+      return rms;
+    }
+  }
+
+  /** Фраза целиком: тембр + эффекты. Возвращает Float32Array. */
+  function processPhrase(input, sampleRate, params, opts) {
+    opts = opts || {};
+    const p = mergeParams(params);
+    const core = new VoiceStack(sampleRate, { windowMs: opts.windowMs || 43 });
+    core.setParams(p);
+    let out = core.renderOffline(input);
+    return finishPhrase(out, sampleRate, p);
+  }
+
+  /** Только эффекты (для результата нейросети): рычание, эхо, громкость. */
+  function finishPhrase(out, sampleRate, params) {
+    const p = mergeParams(params);
+    const tail = p.echo > 0.01 ? Math.round(sampleRate * 0.9) : 0;
+    if (tail) { const e = new Float32Array(out.length + tail); e.set(out); out = e; }
+    const fx = new Effects(sampleRate);
+    fx.setParams(p); fx.reset();
+    fx.process(out, out.length);
+    return out;
+  }
+
+  g.VCDsp = { DEFAULT_PARAMS, mergeParams, FFT, VoiceCore, VoiceStack, Effects, NoiseGate, processPhrase, finishPhrase };
+})(typeof globalThis !== 'undefined' ? globalThis : (typeof self !== 'undefined' ? self : this));
+
+</script>
+  <script>
+(function(){
+"use strict";
+// Готовые NPC. Значения подобраны для обычного мужского голоса; для вашего голоса
+// подстройте ползунки (Высота и Тембр) в карточке — настройки сохранятся.
+const CATEGORIES = ['Люди', 'Эльфы', 'Гномы', 'Орки', 'Нежить', 'Демоны', 'Боги', 'Чудовища', 'Другие'];
+
+const CATEGORY_COLORS = {
+  'Люди': '#c9a24a', 'Эльфы': '#5fae7b', 'Гномы': '#b07a4a', 'Орки': '#7aa13a', 'Нежить': '#8f8fb8',
+  'Демоны': '#d2493a', 'Боги': '#e8d27a', 'Чудовища': '#a3568f', 'Другие': '#6d8fa8'
+};
+
+const EMOJIS = ['🧙', '🧙‍♀️', '🧑', '👩', '👧', '👴', '👵', '🧝', '🧝‍♀️', '🧛', '🧟', '💀', '👻', '👹', '👺', '😈',
+  '👑', '⚔️', '🛡️', '🏹', '⛏️', '🪓', '🐉', '🦇', '🕷️', '🐺', '🦉', '👁️', '🔮', '🕯️', '⚡', '🔥', '❄️', '🌙', '☠️', '🎭'];
+
+// Прежние значения встроенных женских голосов: нужны, чтобы обновить их, только если пользователь их не менял.
+const OLD_FEMALE = {
+  'demo-elf-woman': { pitch: 6, formant: 3.5, depth: 0, tilt: 0.25, breath: 0.15, growl: 0, echo: 0.05, speed: 1, volume: 1 },
+  'demo-girl': { pitch: 8, formant: 4.5, depth: 0, tilt: 0.3, breath: 0.05, growl: 0, echo: 0, speed: 1.08, volume: 1 },
+  'demo-witch': { pitch: 2.5, formant: 0.5, depth: 0, tilt: -0.1, breath: 0.6, growl: 0.15, echo: 0, speed: 0.95, volume: 1 }
+};
+
+const DEMO_NPCS = [
+  {
+    id: 'demo-old-wizard', name: 'Старый волшебник', voiceName: 'Мерлин', kind: 'Мужской, старый', category: 'Люди',
+    desc: 'Медленный, чуть хриплый голос мудрого мага.', avatar: { type: 'emoji', value: '🧙' },
+    params: { pitch: -1.5, formant: -1.5, depth: 0.25, tilt: -0.2, breath: 0.35, growl: 0, echo: 0, speed: 0.92, volume: 1 }
+  },
+  {
+    id: 'demo-young-man', name: 'Молодой мужчина', voiceName: 'Лиам', kind: 'Мужской, молодой', category: 'Люди',
+    desc: 'Светлый, бодрый голос юного героя или стражника.', avatar: { type: 'emoji', value: '🧑' },
+    params: { pitch: 1.5, formant: 1.2, depth: 0, tilt: 0.15, breath: 0, growl: 0, echo: 0, speed: 1.05, volume: 1 }
+  },
+  {
+    id: 'demo-orc', name: 'Грубый орк', voiceName: 'Гракх', kind: 'Мужской, грубый', category: 'Орки',
+    desc: 'Низкий рычащий голос воина-орка.', avatar: { type: 'emoji', value: '👹' },
+    params: { pitch: -4, formant: -3, depth: 0.6, tilt: -0.1, breath: 0.2, growl: 0.45, echo: 0, speed: 0.97, volume: 1.1 }
+  },
+  {
+    id: 'demo-demon', name: 'Демон', voiceName: 'Малфаэль', kind: 'Низкий демонический', category: 'Демоны',
+    desc: 'Очень низкий голос с рычанием и эхом.', avatar: { type: 'emoji', value: '😈' },
+    params: { pitch: -8, formant: -4.5, depth: 0.9, tilt: -0.2, breath: 0.25, growl: 0.7, echo: 0.35, speed: 0.9, volume: 1.1 }
+  },
+  {
+    id: 'demo-elf-woman', name: 'Эльфийка', voiceName: 'Лаэриэль', kind: 'Женский', category: 'Эльфы',
+    desc: 'Лёгкий, звонкий и мелодичный голос.', avatar: { type: 'emoji', value: '🧝‍♀️' },
+    params: { pitch: 5.5, formant: 2.5, depth: -0.25, tilt: 0.2, breath: 0.1, growl: 0, echo: 0.08, speed: 1, volume: 1, lively: 0.9, layer: 0 }
+  },
+  {
+    id: 'demo-girl', name: 'Молодая девушка', voiceName: 'Мила', kind: 'Женский, юный', category: 'Люди',
+    desc: 'Высокий, светлый голос девочки или подростка.', avatar: { type: 'emoji', value: '👧' },
+    params: { pitch: 7, formant: 3.5, depth: -0.35, tilt: 0.25, breath: 0.05, growl: 0, echo: 0, speed: 1.05, volume: 1, lively: 1.1, layer: 0 }
+  },
+  {
+    id: 'demo-witch', name: 'Старая ведьма', voiceName: 'Карга', kind: 'Женский, старый', category: 'Люди',
+    desc: 'Скрипучий шипящий голос с сильной хрипотой.', avatar: { type: 'emoji', value: '🧙‍♀️' },
+    params: { pitch: 3, formant: 1, depth: -0.1, tilt: -0.05, breath: 0.5, growl: 0.15, echo: 0, speed: 0.95, volume: 1, lively: 0.9, layer: 0 }
+  },
+  {
+    id: 'demo-king', name: 'Король', voiceName: 'Альдрик', kind: 'Мужской, властный', category: 'Люди',
+    desc: 'Глубокий, размеренный королевский голос.', avatar: { type: 'emoji', value: '👑' },
+    params: { pitch: -2.5, formant: -1.5, depth: 0.5, tilt: -0.05, breath: 0, growl: 0, echo: 0.15, speed: 0.93, volume: 1.1 }
+  },
+  {
+    id: 'demo-dwarf', name: 'Гном', voiceName: 'Торин', kind: 'Мужской, грубоватый', category: 'Гномы',
+    desc: 'Басовитый, чуть хриплый голос кузнеца.', avatar: { type: 'emoji', value: '⛏️' },
+    params: { pitch: -2.5, formant: -1, depth: 0.3, tilt: 0, breath: 0.1, growl: 0.2, echo: 0, speed: 1, volume: 1 }
+  },
+  {
+    id: 'demo-mystery', name: 'Загадочное существо', voiceName: 'Тень', kind: 'Неопределённый', category: 'Другие',
+    desc: 'Шёпот с эхом, не поймёшь — мужчина или женщина.', avatar: { type: 'emoji', value: '👁️' },
+    params: { pitch: -1, formant: 2.5, depth: 0, tilt: -0.3, breath: 0.8, growl: 0, echo: 0.5, speed: 0.9, volume: 1 }
+  },
+  {
+    id: 'demo-goblin', name: 'Гоблин', voiceName: 'Скрыг', kind: 'Мелкий, визгливый', category: 'Чудовища',
+    desc: 'Мелкий, визгливый и хриплый голос — хитрый и быстрый.', avatar: { type: 'emoji', value: '👺' },
+    params: { pitch: 5, formant: 1.5, depth: -0.1, tilt: 0.35, breath: 0.45, growl: 0.2, echo: 0, speed: 1.12, volume: 1, lively: 1.2, layer: 0 }
+  },
+  {
+    id: 'demo-mimic', name: 'Мимик', voiceName: 'Сундук', kind: 'Жуткий, неправильный', category: 'Чудовища',
+    desc: 'Низкий голос с «чужим» тембром, хрипом и эхом — как будто говорит сундук.', avatar: { type: 'emoji', value: '👁️' },
+    params: { pitch: -5, formant: 3.5, depth: 0.4, tilt: 0.1, breath: 0.6, growl: 0.5, echo: 0.25, speed: 0.92, volume: 1.05, lively: 0.6, layer: 0.35 }
+  },
+  {
+    id: 'demo-god', name: 'Бог', voiceName: 'Он', kind: 'Величественный, громовой', category: 'Боги',
+    desc: 'Огромный голос с двойным «басом» и гулким эхом.', avatar: { type: 'emoji', value: '⚡' },
+    params: { pitch: -4, formant: -2, depth: 0.8, tilt: -0.05, breath: 0.1, growl: 0.1, echo: 0.55, speed: 0.88, volume: 1.1, lively: 0.3, layer: 0.6 }
+  }
+].map((n, i) => Object.assign({ favorite: i < 5, engine: 'dsp', model: '', order: i, lastUsed: 0, builtin: true }, n));
+
+// Хранилище: библиотека NPC и настройки (localStorage), тестовая фраза (IndexedDB),
+// резервная копия (экспорт/импорт JSON).
+
+const LIB_KEY = 'vdnd.library.v1';
+const SET_KEY = 'vdnd.settings.v1';
+const memory = {};
+
+function lsGet(key) {
+  try { return localStorage.getItem(key); } catch { return memory[key] ?? null; }
+}
+function lsSet(key, val) {
+  try { localStorage.setItem(key, val); } catch { memory[key] = val; }
+  idbPut(key, val);   // вторая копия: если браузер очистит localStorage, данные вернутся из IndexedDB
+}
+function hasSavedLibrary() { return !!lsGet(LIB_KEY); }
+
+const DEFAULT_SETTINGS = {
+  mode: 'live',          // 'live' — потоково, 'phrase' — по фразам
+  autoplay: true,        // автоматически воспроизводить результат
+  monitor: 'converted',  // что слышно в живом режиме: 'converted' | 'original'
+  selectedId: null,
+  filter: 'all',         // 'all' | 'fav' | название категории
+  sort: 'manual',        // 'manual' | 'name' | 'category' | 'recent'
+  inputId: '',
+  gateDb: -45,
+  quality: 'quality',    // 'fast' — окно ~21 мс, 'quality' — ~43 мс
+  schema: 2,             // версия настроек (для обновлений)
+  echoCancellation: false, // выключено: сильно задерживает звук; включайте только если есть «эхо» из динамика
+  noiseSuppression: false,
+  fxEnabled: true,       // эхо / рычание / хрипота
+  masterVolume: 1,
+  phraseHangMs: 700,
+  fallbackDsp: true
+};
+
+function newId() {
+  return 'npc-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+}
+
+function defaultNpc(partial) {
+  return Object.assign({
+    id: newId(), name: 'Новый NPC', voiceName: '', kind: '', gender: '', category: 'Другие', desc: '',
+    avatar: { type: 'emoji', value: '🎭' }, favorite: false, engine: 'dsp', model: '',
+    params: { pitch: 0, formant: 0, depth: 0, tilt: 0, breath: 0, growl: 0, echo: 0, speed: 1, volume: 1, lively: 0, layer: 0 },
+    order: 0, lastUsed: 0, builtin: false
+  }, partial || {});
+}
+
+function loadLibrary() {
+  try {
+    const raw = lsGet(LIB_KEY);
+    if (raw) {
+      const list = JSON.parse(raw);
+      if (Array.isArray(list) && list.length) return list.map(normalizeNpc);
+    }
+  } catch { /* повреждённые данные — начнём с демо */ }
+  return DEMO_NPCS.map(n => normalizeNpc(JSON.parse(JSON.stringify(n))));
+}
+
+function saveLibrary(list) { lsSet(LIB_KEY, JSON.stringify(list)); }
+
+function normalizeNpc(n) {
+  const d = defaultNpc();
+  const out = Object.assign({}, d, n);
+  out.params = Object.assign({}, d.params, (n && n.params) || {});
+  out.avatar = (n && n.avatar && n.avatar.value) ? n.avatar : d.avatar;
+  if (typeof out.id !== 'string' || !out.id) out.id = newId();
+  return out;
+}
+
+function loadSettings() {
+  try {
+    const raw = lsGet(SET_KEY);
+    if (raw) {
+      const st = Object.assign({}, DEFAULT_SETTINGS, JSON.parse(raw));
+      if (!(st.schema >= 2)) { st.schema = 2; st.echoCancellation = false; st.noiseSuppression = false; st.migrated = true; }
+      return st;
+    }
+  } catch { /* значения по умолчанию */ }
+  return Object.assign({}, DEFAULT_SETTINGS);
+}
+
+function markRemoved(id) { if (String(id).startsWith('demo-')) lsSet('vdnd.removed.' + id, '1'); }
+
+/** Обновление сохранённой библиотеки: новые шаблоны и улучшенные женские голоса (если вы их не меняли). */
+function upgradeLibrary(list) {
+  let changed = false;
+  const same = (a, b) => Object.keys(b).every((k) => Math.abs((a[k] == null ? 0 : a[k]) - b[k]) < 1e-9);
+  for (const demo of DEMO_NPCS) {
+    const cur = list.find((x) => x.id === demo.id);
+    if (!cur) {
+      if (!lsGet('vdnd.removed.' + demo.id)) { list.push(normalizeNpc(JSON.parse(JSON.stringify(Object.assign({}, demo, { order: list.length, favorite: false }))))); changed = true; }
+    } else if (OLD_FEMALE[demo.id] && same(cur.params, OLD_FEMALE[demo.id]) && !(cur.params.lively > 0)) {
+      cur.params = Object.assign({}, cur.params, demo.params); changed = true;
+    }
+  }
+  return changed;
+}
+function saveSettings(s) { lsSet(SET_KEY, JSON.stringify(s)); }
+
+/* ---------- резервная копия ---------- */
+function exportBackup(list, settings) {
+  return JSON.stringify({ app: 'voice-dnd', version: 1, exported: new Date().toISOString(), npcs: list, settings }, null, 1);
+}
+function exportNpc(npc) {
+  return JSON.stringify({ app: 'voice-dnd', version: 1, npcs: [npc] }, null, 1);
+}
+/** Возвращает массив NPC из файла. Бросает ошибку, если файл не подходит. */
+function parseBackup(text) {
+  let data;
+  try { data = JSON.parse(text); } catch { throw new Error('Файл не похож на резервную копию (это не JSON).'); }
+  if (!data || data.app !== 'voice-dnd' || !Array.isArray(data.npcs)) throw new Error('Это не файл из этого приложения.');
+  return { npcs: data.npcs.map(normalizeNpc), settings: data.settings || null };
+}
+
+/* ---------- IndexedDB: зеркальная копия и тестовая фраза ---------- */
+function idbPut(key, val) {
+  idb().then((db) => { const tx = db.transaction('kv', 'readwrite'); tx.objectStore('kv').put(val, 'mirror:' + key); }).catch(() => { /* не критично */ });
+}
+async function idbGet(key) {
+  try {
+    const db = await idb();
+    return await new Promise((res) => { const q = db.transaction('kv').objectStore('kv').get('mirror:' + key); q.onsuccess = () => res(q.result || null); q.onerror = () => res(null); });
+  } catch { return null; }
+}
+/** Если localStorage пуст (очищен браузером), пробуем вернуть данные из IndexedDB. */
+async function recoverFromMirror() {
+  const lib = await idbGet(LIB_KEY), set = await idbGet(SET_KEY);
+  let out = null;
+  try { if (lib) { const l = JSON.parse(lib); if (Array.isArray(l) && l.length) { out = { library: l.map(normalizeNpc) }; lsSet(LIB_KEY, lib); } } } catch { /* битые данные */ }
+  try { if (set) { out = out || {}; out.settings = Object.assign({}, DEFAULT_SETTINGS, JSON.parse(set)); lsSet(SET_KEY, set); } } catch { /* битые данные */ }
+  return out;
+}
+/** Просим браузер не удалять данные приложения. */
+async function requestPersistent() { try { return navigator.storage && navigator.storage.persist ? await navigator.storage.persist() : false; } catch { return false; } }
+function idb() {
+  return new Promise((resolve, reject) => {
+    const r = indexedDB.open('vdnd', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('kv');
+    r.onsuccess = () => resolve(r.result);
+    r.onerror = () => reject(r.error);
+  });
+}
+async function saveTestPhrase(obj) {
+  try {
+    const db = await idb();
+    await new Promise((res, rej) => { const tx = db.transaction('kv', 'readwrite'); tx.objectStore('kv').put(obj, 'testPhrase'); tx.oncomplete = res; tx.onerror = () => rej(tx.error); });
+  } catch { /* без сохранения: фраза останется до закрытия страницы */ }
+}
+async function loadTestPhrase() {
+  try {
+    const db = await idb();
+    return await new Promise((res, rej) => { const tx = db.transaction('kv'); const q = tx.objectStore('kv').get('testPhrase'); q.onsuccess = () => res(q.result || null); q.onerror = () => rej(q.error); });
+  } catch { return null; }
+}
+
+// Клиент сервера на компьютере: нейросетевое преобразование (RVC и др.) по фразам.
+// Работает только если приложение открыто с адреса, который показал компьютер (тот же сервер).
+
+class RemoteClient {
+  constructor() { this.status = null; }
+
+  async probe() {
+    // Android offline build: remote engines are intentionally disabled.
+    this.status = null;
+    return null;
+  }
+
+  engineReady(name) {
+    return !!(this.status && this.status.engines && this.status.engines[name] && this.status.engines[name].available);
+  }
+
+  /** Серверное преобразование отключено в автономной Android-версии. */
+  async convert() {
+    throw new Error('В автономной версии доступны только локальные DSP-эффекты.');
+  }
+}
+
+function encodeWav(f32, sr) {
+  const n = f32.length, buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); w(8, 'WAVE'); w(12, 'fmt ');
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, sr, true); v.setUint32(28, sr * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  w(36, 'data'); v.setUint32(40, n * 2, true);
+  for (let i = 0; i < n; i++) { const s = Math.max(-1, Math.min(1, f32[i])); v.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true); }
+  return buf;
+}
+
+function decodeWav(buf) {
+  const v = new DataView(buf);
+  const tag = (o) => String.fromCharCode(v.getUint8(o), v.getUint8(o + 1), v.getUint8(o + 2), v.getUint8(o + 3));
+  if (buf.byteLength < 44 || tag(0) !== 'RIFF' || tag(8) !== 'WAVE') throw new Error('Сервер вернул не WAV');
+  let o = 12, fmt = null, dataOff = 0, dataLen = 0;
+  while (o + 8 <= buf.byteLength) {
+    const id = tag(o), len = v.getUint32(o + 4, true);
+    if (id === 'fmt ') fmt = { code: v.getUint16(o + 8, true), ch: v.getUint16(o + 10, true), sr: v.getUint32(o + 12, true), bits: v.getUint16(o + 22, true) };
+    if (id === 'data') { dataOff = o + 8; dataLen = Math.min(len, buf.byteLength - dataOff); break; }
+    o += 8 + len + (len & 1);
+  }
+  if (!fmt || !dataOff) throw new Error('Не удалось прочитать WAV');
+  const bytes = fmt.bits / 8, frames = Math.floor(dataLen / (bytes * fmt.ch)), out = new Float32Array(frames);
+  for (let i = 0; i < frames; i++) {
+    const p = dataOff + i * bytes * fmt.ch;
+    out[i] = fmt.code === 3 ? v.getFloat32(p, true) : fmt.bits === 16 ? v.getInt16(p, true) / 32768 : fmt.bits === 8 ? (v.getUint8(p) - 128) / 128 : v.getInt32(p, true) / 2147483648;
+  }
+  return { data: out, sr: fmt.sr };
+}
+
+// AudioEngine — всё, что связано со звуком: микрофон, обработка, воспроизведение.
+//
+// Два режима работы:
+//  • «Живой»  — звук идёт через AudioWorklet потоково (задержка = окно анализа ≈ 21/43 мс + задержка устройства).
+//  • «Фразы»  — приложение слушает, ловит фразу целиком (по паузе), обрабатывает и проигрывает.
+//               Этот режим нужен для нейросети (RVC) и для изменения скорости речи.
+//               Пока играет ответ, микрофон «не слушает» — обратной связи нет по определению.
+
+const QUALITY_MS = { fast: 21, quality: 43 };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const rmsOf = (a) => { let s = 0; for (let i = 0; i < a.length; i++) s += a[i] * a[i]; return Math.sqrt(s / (a.length || 1)); };
+
+function fail(code, message) { const e = new Error(message); e.code = code; return e; }
+
+class AudioEngine extends EventTarget {
+  constructor() {
+    super();
+    this.ctx = null; this.node = null; this.src = null; this.stream = null;
+    this.liveGain = null; this.out = null;
+    this.settings = null; this.voice = null;
+    this.running = false; this.recording = false;
+    this.remote = new RemoteClient();
+    this.testPhrase = null; this.lastPhrase = null;
+    this._workletReady = false; this._busy = false; this._playing = false; this._ignoreUntil = 0;
+    this._source = null; this._chunks = null; this._wake = null; this._fbMuted = false;
+    this._calib = null; this._vad = null; this._resetVad();
+  }
+
+  emit(type, detail) { this.dispatchEvent(new CustomEvent(type, { detail })); }
+
+  /* ---------------- состояние ---------------- */
+  effectiveMode() {
+    if (this.voice && this.voice.engine && this.voice.engine !== 'dsp') return 'phrase';
+    return (this.settings && this.settings.mode) || 'live';
+  }
+  state() {
+    return {
+      running: this.running, mode: this.effectiveMode(), feedback: this._fbMuted,
+      busy: this._busy, playing: this._playing, recording: this.recording,
+      speech: this._vad.state === 'speech', hasLast: !!this.lastPhrase
+    };
+  }
+  latencyMs() {
+    if (!this.ctx) return null;
+    const sr = this.ctx.sampleRate, ms = QUALITY_MS[this.settings.quality] || 43;
+    const N = Math.pow(2, Math.round(Math.log2(sr * ms / 1000)));
+    return Math.round(N / sr * 1000 + (this.ctx.baseLatency || 0) * 1000 + (this.ctx.outputLatency || 0) * 1000);
+  }
+
+  /* ---------------- контекст и микрофон ---------------- */
+  async _ensureBasicContext() {
+    if (!this.ctx) {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) throw fail('NoAudio', 'Этот браузер не поддерживает Web Audio.');
+      this.ctx = new AC({ latencyHint: 'interactive' });
+      this.out = this.ctx.createGain();
+      this.liveGain = this.ctx.createGain();
+      this.liveGain.connect(this.out);
+      this.out.connect(this.ctx.destination);
+    }
+    if (this.ctx.state === 'suspended') await this.ctx.resume();
+    this._applyGains();
+  }
+
+  async _ensureContext() {
+    await this._ensureBasicContext();
+    if (!this._workletReady) {
+      if (!this.ctx.audioWorklet) throw fail('NoWorklet', 'Браузер не поддерживает AudioWorklet. Нужен свежий Chrome/Edge (Android) или Safari 14.5+ и защищённое соединение (HTTPS).');
+      if (window.VDND_WORKLET_SRC) {   // единый HTML-файл: код процессора встроен в страницу
+        // Из файла, открытого с диска (file://), blob-ссылки не грузятся, поэтому data-ссылка.
+        const bytes = new TextEncoder().encode(window.VDND_WORKLET_SRC);
+        let bin = ''; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+        const dataUrl = 'data:text/javascript;base64,' + btoa(bin);
+        try { await this.ctx.audioWorklet.addModule(dataUrl); }
+        catch (e1) {
+          const url = URL.createObjectURL(new Blob([window.VDND_WORKLET_SRC], { type: 'text/javascript' }));
+          try { await this.ctx.audioWorklet.addModule(url); } finally { URL.revokeObjectURL(url); }
+        }
+      } else {
+        await this.ctx.audioWorklet.addModule('js/audio/dsp-core.js');
+        await this.ctx.audioWorklet.addModule('js/audio/worklet.js');
+      }
+      this._workletReady = true;
+    }
+    this._applyGains();
+  }
+
+  async _openMic() {
+    await this._ensureContext();
+    if (this.stream && this.node) return;
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      throw fail('Insecure', 'Микрофон недоступен: страница открыта не по HTTPS. Откройте адрес https://… (см. инструкцию).');
+    }
+    const s = this.settings;
+    const audio = { echoCancellation: !!s.echoCancellation, noiseSuppression: !!s.noiseSuppression, autoGainControl: false, channelCount: 1 };
+    if (s.inputId) audio.deviceId = { ideal: s.inputId };
+    try { this.stream = await navigator.mediaDevices.getUserMedia({ audio }); }
+    catch (e1) {
+      // некоторые оболочки (WebView) не принимают часть настроек: пробуем самые простые
+      if (e1 && (e1.name === 'NotReadableError' || e1.name === 'OverconstrainedError' || e1.name === 'AbortError')) {
+        try { this.stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch (e2) { throw e2; }
+      } else throw e1;
+    }
+    const track = this.stream.getAudioTracks()[0];
+    track.addEventListener('ended', () => { this.emit('error', { code: 'MicLost', message: 'Микрофон отключился (его мог забрать другой звонок или приложение).' }); this.stop(); });
+    this._buildNode();
+  }
+
+  _buildNode() {
+    if (this.node) { try { this.node.disconnect(); } catch { /* уже отключён */ } this.node.port.onmessage = null; }
+    if (this.src) { try { this.src.disconnect(); } catch { /* уже отключён */ } }
+    const windowMs = QUALITY_MS[this.settings.quality] || 43;
+    this._nodeWindowMs = windowMs;
+    this.src = this.ctx.createMediaStreamSource(this.stream);
+    this.node = new AudioWorkletNode(this.ctx, 'vc-processor', {
+      numberOfInputs: 1, numberOfOutputs: 1, outputChannelCount: [1],
+      processorOptions: { windowMs, gateDb: this.settings.gateDb }
+    });
+    this.node.port.onmessage = (e) => this._onNodeMessage(e.data || {});
+    this.src.connect(this.node);
+    this.node.connect(this.liveGain);
+    this._pushVoice();
+    this._applyMode();
+  }
+
+  _closeMic() {
+    if (this.node) { try { this.node.disconnect(); } catch { /* ok */ } this.node.port.onmessage = null; this.node = null; }
+    if (this.src) { try { this.src.disconnect(); } catch { /* ok */ } this.src = null; }
+    if (this.stream) { this.stream.getTracks().forEach((t) => t.stop()); this.stream = null; }
+    this._releaseWake();
+  }
+
+  _post(msg) { if (this.node) this.node.port.postMessage(msg); }
+
+  /* ---------------- настройки и голос ---------------- */
+  applySettings() {
+    if (this.node && this._nodeWindowMs !== (QUALITY_MS[this.settings.quality] || 43)) this._buildNode();
+    this._post({ type: 'gate', db: this.settings.gateDb });
+    this._applyGains();
+    this._pushVoice();
+    this._applyMode();
+    this.emit('state', this.state());
+  }
+
+  setVoice(npc) {
+    this.voice = npc;
+    this._pushVoice();
+    this._applyMode();
+    this._resetVad();
+    this.emit('state', this.state());
+  }
+
+  _voiceParams(p) {
+    const q = Object.assign({}, p);
+    if (this.settings && !this.settings.fxEnabled) { q.echo = 0; q.growl = 0; q.breath = 0; }
+    return q;
+  }
+  _pushVoice() { if (this.voice) this._post({ type: 'params', params: this._voiceParams(this.voice.params) }); }
+
+  _applyGains() {
+    if (!this.out) return;
+    const s = this.settings, t = this.ctx.currentTime;
+    this.out.gain.setTargetAtTime(Math.max(0, Math.min(2, s.masterVolume)), t, 0.02);
+    const liveMuted = this.effectiveMode() === 'live' && !s.autoplay;
+    this.liveGain.gain.setTargetAtTime(liveMuted ? 0 : 1, t, 0.02);
+  }
+
+  _applyMode() {
+    if (!this.node) return;
+    const em = this.effectiveMode();
+    let convert = false, capture = false, bypass = false;
+    if (this.recording) capture = true;
+    else if (this.running) {
+      if (em === 'live') { convert = true; bypass = this.settings.monitor === 'original'; }
+      else capture = true;
+    }
+    this._post({ type: 'convert', value: convert });
+    this._post({ type: 'capture', value: capture });
+    this._post({ type: 'bypass', value: bypass });
+    this._applyGains();
+  }
+
+  /* ---------------- запуск / остановка ---------------- */
+  async start() {
+    if (this.running) return;
+    await this._openMic();
+    this.running = true; this._fbMuted = false;
+    this._post({ type: 'mute', value: false });
+    this._resetVad();
+    this._applyMode();
+    this._acquireWake();
+    this.emit('state', this.state());
+  }
+
+  stop() {
+    this.running = false; this._stopPlayback(); this._resetVad();
+    if (!this.recording) this._closeMic(); else this._applyMode();
+    this.emit('state', this.state());
+    this.emit('level', { inRms: 0, outRms: 0, gate: false });
+  }
+
+  unmute() { this._fbMuted = false; this._post({ type: 'mute', value: false }); this.emit('state', this.state()); }
+
+  async _acquireWake() { try { if (navigator.wakeLock) this._wake = await navigator.wakeLock.request('screen'); } catch { /* не критично */ } }
+  _releaseWake() { try { if (this._wake) this._wake.release(); } catch { /* ok */ } this._wake = null; }
+
+  async listInputs() {
+    try {
+      const all = await navigator.mediaDevices.enumerateDevices();
+      return all.filter((d) => d.kind === 'audioinput').map((d, i) => ({ id: d.deviceId, label: d.label || ('Микрофон ' + (i + 1)) }));
+    } catch { return []; }
+  }
+
+  /* ---------------- сообщения от процессора ---------------- */
+  _onNodeMessage(m) {
+    if (m.type === 'meter') {
+      if (this._calib) this._calib(m.inRms);
+      this.emit('level', m);
+    } else if (m.type === 'pcm') this._onPcm(m.data);
+    else if (m.type === 'feedback') { this._fbMuted = true; this.emit('feedback', {}); this.emit('state', this.state()); }
+  }
+
+  /* ---------------- режим фраз: детектор речи ---------------- */
+  _resetVad() { this._vad = { state: 'idle', pre: [], speech: [], quiet: 0, loud: 0, samples: 0 }; }
+
+  _onPcm(chunk) {
+    if (this.recording) { this._chunks.push(chunk); return; }
+    if (!this.running || this.effectiveMode() !== 'phrase') return;
+    if (this._busy || this._playing || performance.now() < this._ignoreUntil) { if (this._vad.state !== 'idle' || this._vad.pre.length) this._resetVad(); return; }
+    const sr = this.ctx.sampleRate, thr = Math.pow(10, this.settings.gateDb / 20), rms = rmsOf(chunk), v = this._vad;
+    const ms = chunk.length / sr * 1000;
+    if (v.state === 'idle') {
+      v.pre.push(chunk); if (v.pre.length > 10) v.pre.shift();
+      v.loud = rms > thr ? v.loud + 1 : 0;
+      if (v.loud >= 2) { v.state = 'speech'; v.speech = v.pre.slice(); v.pre = []; v.quiet = 0; v.samples = v.speech.reduce((a, c) => a + c.length, 0); this.emit('state', this.state()); }
+    } else {
+      v.speech.push(chunk); v.samples += chunk.length;
+      v.quiet = rms > thr ? 0 : v.quiet + ms;
+      if (v.quiet >= this.settings.phraseHangMs || v.samples / sr > 25) this._endPhrase();
+    }
+  }
+
+  _endPhrase() {
+    const v = this._vad, sr = this.ctx.sampleRate;
+    const total = v.speech.reduce((a, c) => a + c.length, 0);
+    const trimQuiet = Math.max(0, Math.round(v.quiet / 1000 * sr) - Math.round(0.15 * sr));
+    const len = Math.max(0, total - trimQuiet), buf = new Float32Array(len);
+    let o = 0; for (const c of v.speech) { const n = Math.min(c.length, len - o); if (n <= 0) break; buf.set(c.subarray(0, n), o); o += n; }
+    this._resetVad(); this.emit('state', this.state());
+    if (len / sr < 0.3) return;      // щелчок или кашель
+    this._handlePhrase(buf, sr);
+  }
+
+  async _handlePhrase(buf, sr) {
+    const voice = this.voice;
+    this._busy = true; this.emit('state', this.state());
+    try {
+      const r = await this.convertBuffer(buf, sr, voice);
+      this.lastPhrase = { orig: buf, sr, conv: r.data, convSr: r.sr };
+      this.emit('phrase', { stage: 'ready', via: r.via });
+      if (this.settings.autoplay) { this._busy = false; await this.playFloat(r.data, r.sr); }
+    } catch (e) {
+      this.emit('error', { code: 'Convert', message: 'Не удалось обработать фразу: ' + (e && e.message ? e.message : e) });
+    } finally { this._busy = false; this._resetVad(); this.emit('state', this.state()); }
+  }
+
+  /* ---------------- преобразование буфера ---------------- */
+  async convertBuffer(buf, sr, voice) {
+    const p = this._voiceParams(voice.params);
+    if (voice.engine && voice.engine !== 'dsp') {
+      try {
+        const r = await this.remote.convert(buf, sr, voice, voice.engine);
+        const data = globalThis.VCDsp.finishPhrase(r.data, r.sr, { volume: p.volume, echo: p.echo, growl: p.growl });
+        return { data, sr: r.sr, via: voice.engine };
+      } catch (e) {
+        if (!this.settings.fallbackDsp) throw e;
+        this.emit('warn', { message: 'Нейросеть недоступна (' + (e.message || e) + '). Использован встроенный голос.' });
+      }
+    }
+    await sleep(0);
+    const data = globalThis.VCDsp.processPhrase(buf, sr, p, { windowMs: 43 });
+    return { data, sr, via: 'dsp' };
+  }
+
+  /* ---------------- воспроизведение ---------------- */
+  _stopPlayback() {
+    if (this._source) { const s = this._source; this._source = null; try { s.onended = null; s.stop(); } catch { /* ok */ } }
+    if (this._playing) { this._playing = false; if (this.node && !this._fbMuted) this._post({ type: 'mute', value: false }); }
+  }
+
+  async playFloat(data, sr) {
+    await this._ensureBasicContext();
+    this._stopPlayback();
+    const buf = this.ctx.createBuffer(1, Math.max(1, data.length), sr);
+    buf.copyToChannel(data, 0);
+    const src = this.ctx.createBufferSource();
+    src.buffer = buf; src.connect(this.out);
+    this._source = src; this._playing = true;
+    this._post({ type: 'mute', value: true });  // пока играет ответ — живой тракт молчит (нет петли)
+    this.emit('state', this.state());
+    return new Promise((resolve) => {
+      src.onended = () => {
+        if (this._source === src) {
+          this._source = null; this._playing = false; this._ignoreUntil = performance.now() + 350;
+          if (!this._fbMuted) this._post({ type: 'mute', value: false });
+          this.emit('state', this.state());
+        }
+        resolve();
+      };
+      src.start();
+    });
+  }
+
+  async playLast(which) {
+    const l = this.lastPhrase; if (!l) return false;
+    if (which === 'orig') await this.playFloat(l.orig, l.sr); else await this.playFloat(l.conv, l.convSr);
+    return true;
+  }
+
+  /* ---------------- фраза из файла (запись штатным диктофоном телефона) ---------------- */
+  async processFile(arrayBuffer, voice) {
+    await this._ensureBasicContext();
+    const ab = await new Promise((res, rej) => { const p = this.ctx.decodeAudioData(arrayBuffer, res, rej); if (p && p.catch) p.catch(rej); });
+    const ch = ab.numberOfChannels, n = ab.length, mono = new Float32Array(n);
+    for (let c = 0; c < ch; c++) { const d = ab.getChannelData(c); for (let i = 0; i < n; i++) mono[i] += d[i] / ch; }
+    let peak = 0; for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(mono[i]));
+    if (peak < 0.005) throw new Error('В записи тишина.');
+    const g = 0.8 / peak; for (let i = 0; i < n; i++) mono[i] *= g;
+    this._busy = true; this.emit('state', this.state());
+    try {
+      const r = await this.convertBuffer(mono, ab.sampleRate, voice);
+      this.lastPhrase = { orig: mono, sr: ab.sampleRate, conv: r.data, convSr: r.sr };
+      this.emit('phrase', { stage: 'ready', via: r.via });
+      this._busy = false;
+      await this.playFloat(r.data, r.sr);
+    } finally { this._busy = false; this.emit('state', this.state()); }
+  }
+
+  /* ---------------- тестовая фраза ---------------- */
+  setTestPhrase(tp) { this.testPhrase = tp; }
+
+  async recordTest(ms) {
+    if (this.recording) return null;
+    await this._openMic();
+    this._stopPlayback();
+    this.recording = true; this._chunks = [];
+    this._applyMode(); this.emit('recording', { ms });
+    await sleep(ms);
+    this.recording = false;
+    const chunks = this._chunks; this._chunks = null;
+    this._applyMode();
+    if (!this.running) this._closeMic();
+    const sr = this.ctx.sampleRate;
+    const total = chunks.reduce((a, c) => a + c.length, 0), all = new Float32Array(total);
+    let o = 0; for (const c of chunks) { all.set(c, o); o += c.length; }
+    return this._finalizeTest(all, sr);
+  }
+
+  _finalizeTest(all, sr) {
+    // обрезаем тишину по краям и выравниваем громкость
+    const win = Math.round(sr * 0.02), thr = 0.015;
+    let a = 0, b = all.length;
+    while (a + win < all.length && rmsOf(all.subarray(a, a + win)) < thr) a += win;
+    while (b - win > a && rmsOf(all.subarray(b - win, b)) < thr) b -= win;
+    a = Math.max(0, a - Math.round(sr * 0.1)); b = Math.min(all.length, b + Math.round(sr * 0.15));
+    if (b - a < sr * 0.4) return null;   // ничего не сказано
+    const seg = all.slice(a, b);
+    let peak = 0; for (let i = 0; i < seg.length; i++) peak = Math.max(peak, Math.abs(seg[i]));
+    const g = peak > 0 ? 0.8 / peak : 1;
+    for (let i = 0; i < seg.length; i++) seg[i] *= g;
+    this.testPhrase = { sr, data: seg };
+    return this.testPhrase;
+  }
+
+  async playTest(npc) {
+    if (!this.testPhrase) return { needRecord: true };
+    const r = await this.convertBuffer(this.testPhrase.data, this.testPhrase.sr, npc);
+    await this.playFloat(r.data, r.sr);
+    return { ok: true, via: r.via };
+  }
+  async playTestOriginal() {
+    if (!this.testPhrase) return { needRecord: true };
+    await this.playFloat(this.testPhrase.data, this.testPhrase.sr);
+    return { ok: true };
+  }
+
+  /* ---------------- автокалибровка порога ---------------- */
+  async calibrateGate(ms = 1600) {
+    await this._openMic();
+    const vals = [];
+    this._calib = (v) => vals.push(v);
+    await sleep(ms);
+    this._calib = null;
+    if (!this.running && !this.recording) this._closeMic();
+    if (vals.length < 5) return null;
+    vals.sort((x, y) => x - y);
+    const p90 = vals[Math.floor(vals.length * 0.9)];
+    const db = 20 * Math.log10(Math.max(p90, 1e-5)) + 10;
+    return Math.round(Math.max(-65, Math.min(-25, db)));
+  }
+}
+
+
+
+
+/* ====================================================================== */
+/* Состояние                                                               */
+/* ====================================================================== */
+let library = loadLibrary();
+const settings = loadSettings();
+if (upgradeLibrary(library)) saveLibrary(library);
+if (settings.migrated) { delete settings.migrated; saveSettings(settings); }
+const engine = new AudioEngine();
+engine.settings = settings;
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, attrs, ...kids) => {
+  const e = document.createElement(tag);
+  for (const k in (attrs || {})) {
+    if (k === 'class') e.className = attrs[k];
+    else if (k === 'text') e.textContent = attrs[k];
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), attrs[k]);
+    else if (attrs[k] !== false && attrs[k] != null) e.setAttribute(k, attrs[k] === true ? '' : attrs[k]);
+  }
+  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+};
+
+const persist = () => saveLibrary(library);
+const persistSettings = () => saveSettings(settings);
+const byId = (id) => library.find((n) => n.id === id);
+const selected = () => byId(settings.selectedId);
+const colorOf = (n) => CATEGORY_COLORS[n.category] || '#d1a94f';
+const fmt = (v, d = 1) => (Math.round(v * 10 ** d) / 10 ** d).toString().replace('.', ',');
+
+/* ====================================================================== */
+/* Уведомления                                                             */
+/* ====================================================================== */
+function toast(text, kind = '', ms = 4200) {
+  const t = el('div', { class: 'toast ' + kind, text });
+  $('toasts').append(t);
+  setTimeout(() => t.remove(), ms);
+}
+
+/* ====================================================================== */
+/* Список NPC: фильтр и сортировка                                         */
+/* ====================================================================== */
+function visibleList() {
+  let list = library.slice();
+  if (settings.filter === 'fav') list = list.filter((n) => n.favorite);
+  else if (settings.filter !== 'all') list = list.filter((n) => n.category === settings.filter);
+  const s = settings.sort;
+  if (s === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'ru'));
+  else if (s === 'category') list.sort((a, b) => CATEGORIES.indexOf(a.category) - CATEGORIES.indexOf(b.category) || a.name.localeCompare(b.name, 'ru'));
+  else if (s === 'recent') list.sort((a, b) => (b.lastUsed || 0) - (a.lastUsed || 0));
+  else list.sort((a, b) => a.order - b.order);
+  return list;
+}
+
+function avatarNode(n, cls = 'avatar') {
+  const a = el('div', { class: cls });
+  if (n.avatar && n.avatar.type === 'image') a.append(el('img', { src: n.avatar.value, alt: '' }));
+  else a.textContent = (n.avatar && n.avatar.value) || '🎭';
+  return a;
+}
+
+/* ====================================================================== */
+/* Отрисовка главного экрана                                               */
+/* ====================================================================== */
+function renderChips() {
+  const box = $('chips'); box.replaceChildren();
+  const add = (key, label) => box.append(el('button', {
+    class: 'chip' + (settings.filter === key ? ' on' : ''), text: label,
+    onclick: () => { settings.filter = key; persistSettings(); renderChips(); renderGrid(); }
+  }));
+  add('all', 'Все'); add('fav', '★ Избранное');
+  const used = new Set(library.map((n) => n.category));
+  CATEGORIES.filter((c) => used.has(c)).forEach((c) => add(c, c));
+}
+
+function renderGrid() {
+  const grid = $('grid'); grid.replaceChildren();
+  const list = visibleList();
+  if (!list.length) {
+    grid.append(el('div', { class: 'empty', text: settings.filter === 'fav' ? 'В избранном пока пусто. Нажмите ☆ на карточке NPC.' : 'Здесь пока нет NPC. Нажмите «＋», чтобы создать.' }));
+  }
+  for (const n of list) grid.append(cardNode(n));
+  renderQuick();
+}
+
+function cardNode(n) {
+  const isSel = n.id === settings.selectedId;
+  const card = el('div', { class: 'card' + (isSel ? ' selected' : ''), 'data-id': n.id, role: 'button', tabindex: '0', style: `--cc:${colorOf(n)}` });
+  card.append(
+    el('span', { class: 'badge', text: 'Выбран' }),
+    el('button', { class: 'fav' + (n.favorite ? ' on' : ''), 'aria-label': 'Избранное', text: n.favorite ? '★' : '☆',
+      onclick: (e) => { e.stopPropagation(); n.favorite = !n.favorite; persist(); renderChips(); renderGrid(); } }),
+    avatarNode(n),
+    el('h3', { text: n.name }),
+    el('p', { class: 'meta', text: n.voiceName ? 'Голос: ' + n.voiceName : 'Голос не назван' }),
+    el('p', { class: 'kind', text: [n.kind, n.category].filter(Boolean).join(' · ') }),
+    el('p', { class: 'desc', text: n.desc || '' }),
+  );
+  if (n.engine && n.engine !== 'dsp') card.append(el('span', { class: 'tag-engine', text: 'нейросеть' }));
+  const play = el('button', { class: 'play', text: '▶ Пример', onclick: (e) => { e.stopPropagation(); preview(n, play); } });
+  const edit = el('button', { text: '✎', 'aria-label': 'Настроить', onclick: (e) => { e.stopPropagation(); openEditor(n.id); } });
+  card.append(el('div', { class: 'actions' }, play, edit));
+  card.addEventListener('click', () => selectNpc(n.id));
+  card.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectNpc(n.id); } });
+  return card;
+}
+
+function renderQuick() {
+  const q = $('quick'); q.replaceChildren();
+  const fav = library.filter((n) => n.favorite).sort((a, b) => a.order - b.order);
+  const list = fav.length ? fav : library.slice().sort((a, b) => a.order - b.order).slice(0, 8);
+  for (const n of list) {
+    const it = el('button', { class: 'q-item' + (n.id === settings.selectedId ? ' on' : ''), style: `--cc:${colorOf(n)}`, 'aria-label': n.name, onclick: () => selectNpc(n.id) },
+      avatarNode(n, 'qa'), el('span', { text: n.name }));
+    q.append(it);
+  }
+}
+
+function updateSelectionUI() {
+  document.querySelectorAll('.card').forEach((c) => c.classList.toggle('selected', c.dataset.id === settings.selectedId));
+  renderQuick();
+  const n = selected();
+  $('nowVoice').textContent = n ? (n.avatar.type === 'emoji' ? n.avatar.value + ' ' : '') + n.name : 'NPC не выбран';
+}
+
+/* ====================================================================== */
+/* Выбор NPC — мгновенно, без остановки микрофона                          */
+/* ====================================================================== */
+function selectNpc(id) {
+  const n = byId(id); if (!n) return;
+  settings.selectedId = id; n.lastUsed = Date.now();
+  persistSettings(); persist();
+  engine.setVoice(n);
+  updateSelectionUI();
+  refreshControls();
+}
+
+function stepNpc(dir) {
+  const list = (library.some((n) => n.favorite) ? library.filter((n) => n.favorite) : library).slice().sort((a, b) => a.order - b.order);
+  if (!list.length) return;
+  const i = list.findIndex((n) => n.id === settings.selectedId);
+  selectNpc(list[(i + dir + list.length) % list.length].id);
+}
+
+/* ====================================================================== */
+/* Пример голоса и запись тестовой фразы                                   */
+/* ====================================================================== */
+let recBusy = false;
+async function ensureTestPhrase() {
+  if (engine.testPhrase) return true;
+  return recordTestPhrase();
+}
+
+async function recordTestPhrase() {
+  if (recBusy) return false;
+  recBusy = true;
+  const ov = $('recOverlay'); ov.hidden = false;
+  const total = 4;
+  let left = total; $('recCount').textContent = left;
+  const iv = setInterval(() => { left = Math.max(0, left - 1); $('recCount').textContent = left; }, 1000);
+  try {
+    const tp = await engine.recordTest(total * 1000);
+    if (!tp) { toast('Не удалось услышать голос. Говорите громче и ближе к микрофону.', 'err'); return false; }
+    await saveTestPhrase({ sr: tp.sr, data: tp.data });
+    toast('Тестовая фраза записана.', 'ok', 2200);
+    return true;
+  } catch (e) { reportMicError(e); return false; }
+  finally { clearInterval(iv); ov.hidden = true; recBusy = false; refreshControls(); }
+}
+
+async function preview(npc, btn) {
+  try {
+    if (!(await ensureTestPhrase())) return;
+    if (btn) { btn.classList.add('busy'); btn.textContent = '… звучит'; }
+    const r = await engine.playTest(npc);
+    if (r && r.via && r.via !== 'dsp') toast('Голос «' + npc.name + '» обработан нейросетью.', '', 1800);
+  } catch (e) { toast('Не удалось проиграть пример: ' + (e.message || e), 'err'); }
+  finally { if (btn) { btn.classList.remove('busy'); btn.textContent = '▶ Пример'; } }
+}
+
+async function playAllExamples() {
+  if (!(await ensureTestPhrase())) return;
+  closeSheet();
+  for (const n of visibleList()) {
+    toast('▶ ' + n.name, '', 1500);
+    try { await engine.playTest(n); } catch { break; }
+    await new Promise((r) => setTimeout(r, 250));
+    if (engine._stopAll) break;
+  }
+}
+
+/* ====================================================================== */
+/* Микрофон                                                                 */
+/* ====================================================================== */
+let micFailed = false;
+function reportMicError(e) {
+  micFailed = true; refreshControls();
+  const name = e && (e.name || e.code);
+  let msg;
+  if (name === 'NotAllowedError' || name === 'SecurityError') msg = 'Доступ к микрофону запрещён. Нажмите на значок замка рядом с адресом и разрешите микрофон, затем обновите страницу.';
+  else if (name === 'NotFoundError' || name === 'OverconstrainedError') msg = 'Микрофон не найден. Проверьте подключение или выберите другой в настройках.';
+  else if (name === 'NotReadableError') msg = 'Не удалось запустить микрофон: он занят другим приложением или недоступен этому приложению. Закройте звонки и записи и попробуйте снова.';
+  else msg = (e && e.message) || 'Неизвестная ошибка микрофона.';
+  if (name === 'Insecure' || !window.isSecureContext) msg = 'Браузер не даёт микрофон на этом адресе. Нажмите «Записать на телефон»: запишите фразу диктофоном, и приложение озвучит её голосом NPC.';
+  if (e && (e.name || e.message)) msg += ' [' + [e.name, e.message].filter(Boolean).join(': ') + ']';
+  toast(msg, 'err', 8000);
+}
+
+async function toggleMic() {
+  const btn = $('btnMic');
+  if (engine.running) { engine.stop(); return; }
+  if (!selected()) { const first = visibleList()[0] || library[0]; if (first) selectNpc(first.id); else { toast('Сначала создайте NPC.', 'err'); return; } }
+  btn.disabled = true;
+  try { await engine.start(); }
+  catch (e) { reportMicError(e); }
+  finally { btn.disabled = false; }
+}
+
+function refreshControls() {
+  const st = engine.state();
+  const mic = $('btnMic');
+  mic.classList.toggle('on', st.running);
+  mic.classList.toggle('speech', st.speech);
+  mic.setAttribute('aria-pressed', String(st.running));
+  $('micLabel').textContent = st.running ? 'Микрофон включён' : 'Включить микрофон';
+  document.querySelectorAll('.seg button').forEach((b) => b.classList.toggle('on', b.dataset.mode === settings.mode));
+  $('btnAutoplay').setAttribute('aria-pressed', String(settings.autoplay));
+  $('btnMonitor').setAttribute('aria-pressed', String(settings.monitor === 'original'));
+  $('fbRow').hidden = !st.feedback;
+  $('btnPhoneRec').hidden = !(micFailed || !window.isSecureContext);
+  $('btnReplay').hidden = !st.hasLast; $('btnReplayOrig').hidden = !st.hasLast;
+  let text;
+  const n = selected();
+  if (!st.running) text = 'Микрофон выключен';
+  else if (st.feedback) text = 'Звук заглушён — обратная связь';
+  else if (st.mode === 'live') text = settings.monitor === 'original' ? 'Слышен ваш исходный голос' : (settings.autoplay ? 'Говорите — слышен голос NPC' : 'Звук NPC выключен (Авто-звук)');
+  else if (st.playing) text = 'Звучит голос NPC…';
+  else if (st.busy) text = 'Обрабатываю фразу…';
+  else if (st.speech) text = 'Слушаю фразу…';
+  else text = 'Говорите — фраза обработается после паузы';
+  if (st.running && n && n.engine && n.engine !== 'dsp' && st.mode === 'phrase') text += ' (нейросеть)';
+  $('statusText').textContent = text;
+  $('modeLive').title = 'Потоково, самая малая задержка';
+  $('modePhrase').title = 'Целые фразы: можно менять скорость речи и использовать нейросеть';
+}
+
+engine.addEventListener('state', refreshControls);
+engine.addEventListener('level', (e) => {
+  const { inRms, outRms } = e.detail;
+  const lv = (r) => Math.min(100, Math.max(0, (20 * Math.log10(r + 1e-5) + 60) * (100 / 54)));
+  $('meterIn').style.width = lv(inRms) + '%';
+  $('meterOut').style.width = lv(outRms) + '%';
+});
+engine.addEventListener('error', (e) => { toast(e.detail.message, 'err', 7000); refreshControls(); });
+engine.addEventListener('warn', (e) => toast(e.detail.message, '', 6000));
+engine.addEventListener('feedback', () => toast('Обнаружена обратная связь: звук заглушён. Отодвиньте динамик от микрофона или наденьте наушники.', 'err', 9000));
+engine.addEventListener('phrase', refreshControls);
+
+/* ====================================================================== */
+/* Окна (нижние листы)                                                     */
+/* ====================================================================== */
+let sheetClose = null;
+function openSheet(content, onClose) {
+  const sheet = $('sheet'); sheet.replaceChildren(...content);
+  $('overlay').hidden = false; sheet.scrollTop = 0; sheetClose = onClose || null;
+}
+function closeSheet() {
+  $('overlay').hidden = true; $('sheet').replaceChildren();
+  if (sheetClose) { const f = sheetClose; sheetClose = null; f(); }
+}
+$('overlay').addEventListener('click', (e) => { if (e.target === $('overlay')) closeSheet(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('overlay').hidden) closeSheet(); });
+
+function slider({ label, hint, min, max, step, value, unit = '', digits = 1, onInput, dim }) {
+  const out = el('b', { text: fmt(value, digits) + unit });
+  const inp = el('input', { type: 'range', min, max, step, value, 'aria-label': label });
+  const paint = () => inp.style.setProperty('--p', ((inp.value - min) / (max - min)) * 100 + '%');
+  paint();
+  inp.addEventListener('input', () => { const v = parseFloat(inp.value); out.textContent = fmt(v, digits) + unit; paint(); onInput(v); });
+  inp.addEventListener('dblclick', () => { /* сброс по двойному тапу не нужен: есть кнопка */ });
+  return el('div', { class: 'slider' + (dim ? ' dim' : '') }, el('div', { class: 'top' }, el('span', { text: label }), out), inp, hint ? el('small', { text: hint }) : null);
+}
+
+/* ---------------- редактор NPC ---------------- */
+function openEditor(id, isNew) {
+  const n = byId(id); if (!n) return;
+  const wasSelected = settings.selectedId === id;
+  const apply = () => { persist(); if (wasSelected || settings.selectedId === id) engine.setVoice(n); };
+  const slidersBox = el('div');
+  const nm = el('input', { type: 'text', value: n.name, maxlength: 40 });
+  const vn = el('input', { type: 'text', value: n.voiceName, maxlength: 40, placeholder: 'например: Мерлин' });
+  const kind = el('input', { type: 'text', value: n.kind, maxlength: 40, placeholder: 'Мужской, старый' });
+  const desc = el('textarea', { maxlength: 140, placeholder: 'Коротко о голосе' }); desc.value = n.desc || '';
+  const cat = el('select'); CATEGORIES.forEach((c) => cat.append(el('option', { value: c, text: c, selected: c === n.category })));
+  const avPrev = el('div'); const redrawAv = () => { avPrev.replaceChildren(avatarNode(n)); }; redrawAv();
+  const emo = el('div', { class: 'emoji-grid' });
+  EMOJIS.forEach((em) => emo.append(el('button', { class: n.avatar.type === 'emoji' && n.avatar.value === em ? 'on' : '', text: em, onclick: () => { n.avatar = { type: 'emoji', value: em }; redrawAv(); [...emo.children].forEach((b) => b.classList.toggle('on', b.textContent === em)); persist(); renderGrid(); } })));
+
+  const eng = el('select');
+  const engines = [['dsp', 'Встроенный (на телефоне, мгновенно)']];
+  const srv = engine.remote.status;
+  if (srv && srv.engines) for (const k in srv.engines) if (k !== 'dsp') engines.push([k, srv.engines[k].title + (srv.engines[k].available ? '' : ' — не установлен')]);
+  if (n.engine && !engines.some((e) => e[0] === n.engine)) engines.push([n.engine, n.engine + ' — сервер не подключён']);
+  engines.forEach(([k, t]) => eng.append(el('option', { value: k, text: t, selected: k === n.engine })));
+  const modelSel = el('select'); const modelBox = el('div');
+  const fillModels = () => {
+    modelSel.replaceChildren(el('option', { value: '', text: '— не выбрана —' }));
+    const info = srv && srv.engines && srv.engines[eng.value];
+    (info && info.models || []).forEach((m) => modelSel.append(el('option', { value: m.id, text: m.name, selected: m.id === n.model })));
+    modelBox.hidden = eng.value === 'dsp';
+  };
+  fillModels();
+  eng.addEventListener('change', () => { n.engine = eng.value; if (n.engine === 'dsp') n.model = ''; fillModels(); renderSliders(); apply(); renderGrid(); });
+  modelSel.addEventListener('change', () => { n.model = modelSel.value; apply(); });
+  modelBox.append(el('label', { class: 'f', text: 'Голосовая модель (папка models/ на компьютере)' }), modelSel,
+    el('p', { class: 'hint', text: srv ? 'Чтобы добавить модель, положите её файлы в папку models — подробности в инструкции.' : 'Откройте приложение с компьютера-сервера, чтобы использовать нейросетевые модели.' }));
+
+  const P = n.params;
+  function renderSliders() {
+    const neural = n.engine !== 'dsp';
+    slidersBox.replaceChildren(
+      slider({ label: 'Высота голоса (pitch)', hint: 'полутонов: вниз — ниже, вверх — выше', min: -12, max: 12, step: 0.5, value: P.pitch, onInput: (v) => { P.pitch = v; apply(); } }),
+      slider({ label: 'Тембр (форманты)', hint: 'меньше — крупнее «рот» (орк, великан), больше — меньше (эльф, ребёнок)', min: -8, max: 8, step: 0.5, value: P.formant, dim: neural, onInput: (v) => { P.formant = v; apply(); } }),
+      slider({ label: 'Глубина', hint: 'вправо — бас и «грудной» звук, влево — тоньше и легче (для женских голосов)', min: -1, max: 1, step: 0.05, value: P.depth, digits: 2, dim: neural, onInput: (v) => { P.depth = v; apply(); } }),
+      slider({ label: 'Яркость', hint: '← глуше · ярче →', min: -1, max: 1, step: 0.05, value: P.tilt, digits: 2, dim: neural, onInput: (v) => { P.tilt = v; apply(); } }),
+      slider({ label: 'Живость', hint: 'шире интонация, голос «играет» — против «роботного» звучания', min: 0, max: 1.5, step: 0.05, value: P.lively || 0, digits: 2, dim: neural, onInput: (v) => { P.lively = v; apply(); } }),
+      slider({ label: 'Хрипота / шёпот', min: 0, max: 1, step: 0.05, value: P.breath, digits: 2, dim: neural, onInput: (v) => { P.breath = v; apply(); } }),
+      slider({ label: 'Скорость речи', hint: neural || settings.mode === 'phrase' ? 'работает в режиме «Фразы»' : 'работает только в режиме «Фразы» (в живом режиме скорость не меняется)', min: 0.6, max: 1.6, step: 0.05, value: P.speed, digits: 2, unit: '×', onInput: (v) => { P.speed = v; apply(); } }),
+      slider({ label: 'Громкость NPC', min: 0, max: 2, step: 0.05, value: P.volume, digits: 2, unit: '×', onInput: (v) => { P.volume = v; apply(); } }),
+      el('h4', { text: 'Эффекты' }),
+      slider({ label: 'Рычание', min: 0, max: 1, step: 0.05, value: P.growl, digits: 2, onInput: (v) => { P.growl = v; apply(); } }),
+      slider({ label: 'Раздвоение (бас-двойник)', hint: 'добавляет второй голос на октаву ниже — для богов и чудовищ', min: 0, max: 1, step: 0.05, value: P.layer || 0, digits: 2, dim: neural, onInput: (v) => { P.layer = v; apply(); } }),
+      slider({ label: 'Эхо', min: 0, max: 1, step: 0.05, value: P.echo, digits: 2, onInput: (v) => { P.echo = v; apply(); } }),
+      !settings.fxEnabled ? el('p', { class: 'hint warn', text: 'Эффекты (хрипота, рычание, эхо) сейчас выключены в настройках.' }) : null,
+    );
+  }
+  renderSliders();
+
+  const fileBtn = el('button', { class: 'btn small', text: '📷 Своя картинка', onclick: () => pickAvatar(n, () => { redrawAv(); persist(); renderGrid(); }) });
+  const testBtn = el('button', { class: 'btn', text: '▶ Послушать на моей фразе', onclick: () => preview(n, testBtn) });
+  const resetBtn = el('button', { class: 'btn small', text: 'Сбросить настройки', onclick: () => { Object.assign(P, defaultNpc().params); renderSliders(); apply(); } });
+
+  const sync = () => { n.name = nm.value.trim() || 'Без названия'; n.voiceName = vn.value.trim(); n.kind = kind.value.trim(); n.desc = desc.value.trim(); n.category = cat.value; };
+  [nm, vn, kind, desc].forEach((i) => i.addEventListener('input', () => { sync(); persist(); }));
+  cat.addEventListener('change', () => { sync(); persist(); });
+  const finish = () => { sync(); persist(); renderChips(); renderGrid(); updateSelectionUI(); if (settings.selectedId === n.id) engine.setVoice(n); };
+
+  openSheet([
+    el('h2', { text: isNew ? 'Новый NPC' : 'Настройка NPC' }),
+    el('div', { class: 'edit-avatar' }, avPrev, el('div', null, fileBtn)),
+    el('details', { class: 'emoji-pick' }, el('summary', { text: 'Выбрать значок' }), emo),
+    el('label', { class: 'f', text: 'Название персонажа' }), nm,
+    el('label', { class: 'f', text: 'Имя голоса' }), vn,
+    el('label', { class: 'f', text: 'Тип голоса' }), kind,
+    el('label', { class: 'f', text: 'Категория' }), cat,
+    el('label', { class: 'f', text: 'Описание' }), desc,
+    el('label', { class: 'f', text: 'Способ преобразования' }), eng, modelBox,
+    el('h4', { text: 'Голос' }), slidersBox,
+    el('div', { class: 'row wrap' }, testBtn, resetBtn),
+    el('h4', { text: 'Действия' }),
+    el('div', { class: 'grid-btns' },
+      el('button', { class: 'btn', text: 'Дублировать', onclick: () => { finish(); const c = duplicateNpc(n); closeSheet(); openEditor(c.id); } }),
+      el('button', { class: 'btn', text: 'Экспорт NPC', onclick: () => { sync(); download(exportNpc(n), (n.name || 'npc') + '.json', 'application/json'); } }),
+      el('button', { class: 'btn danger', text: 'Удалить', onclick: () => { if (confirm('Удалить «' + n.name + '»?')) { deleteNpc(n.id); closeSheet(); } } }),
+    ),
+    el('div', { class: 'sticky' }, el('button', { class: 'btn primary', text: 'Готово', onclick: () => closeSheet() })),
+  ], finish);
+}
+
+function pickAvatar(n, done) {
+  const inp = $('fileAvatar'); inp.value = '';
+  inp.onchange = async () => {
+    const f = inp.files && inp.files[0]; if (!f) return;
+    try {
+      const bmp = await createImageBitmap(f);
+      const s = 128, c = document.createElement('canvas'); c.width = c.height = s;
+      const k = Math.max(s / bmp.width, s / bmp.height), w = bmp.width * k, h = bmp.height * k;
+      c.getContext('2d').drawImage(bmp, (s - w) / 2, (s - h) / 2, w, h);
+      n.avatar = { type: 'image', value: c.toDataURL('image/jpeg', 0.82) }; done();
+    } catch { toast('Не удалось открыть эту картинку.', 'err'); }
+  };
+  inp.click();
+}
+
+// Быстрые заготовки для нового NPC. Рассчитаны на мужской голос мастера: у женского голоса выше и «меньше рот».
+const GENDER_PRESETS = {
+  male: { kind: 'Мужской', avatar: { type: 'emoji', value: '🧑' }, params: { pitch: 0, formant: 0 } },
+  female: { kind: 'Женский', avatar: { type: 'emoji', value: '👩' }, params: { pitch: 5, formant: 3, tilt: 0.2, depth: -0.25, lively: 0.9 } }
+};
+
+function addNpc() {
+  const pick = (gender) => {
+    const g = GENDER_PRESETS[gender];
+    const cats = ['Люди', 'Эльфы', 'Гномы', 'Орки', 'Нежить', 'Демоны', 'Боги', 'Чудовища', 'Другие'];
+    const base = defaultNpc({
+      order: Math.max(-1, ...library.map((x) => x.order)) + 1,
+      category: cats.includes(settings.filter) ? settings.filter : 'Люди',
+      gender, kind: g.kind, avatar: Object.assign({}, g.avatar)
+    });
+    Object.assign(base.params, g.params);
+    library.push(base); persist(); renderChips(); renderGrid();
+    closeSheet(); openEditor(base.id, true);
+  };
+  const big = (emoji, label, gender) => el('button', { class: 'btn gender-btn', onclick: () => pick(gender) }, el('span', { class: 'g-emoji', text: emoji }), el('span', { text: label }));
+  openSheet([
+    el('h2', { text: 'Новый NPC' }),
+    el('p', { class: 'hint', text: 'Кто это? Я сразу подставлю подходящую высоту и тембр, потом их можно подправить ползунками.' }),
+    el('div', { class: 'grid-btns' }, big('🧑', 'Мужчина', 'male'), big('👩', 'Женщина', 'female')),
+    el('div', { class: 'sticky' }, el('button', { class: 'btn', text: 'Отмена', onclick: closeSheet })),
+  ]);
+}
+function duplicateNpc(src) {
+  const c = normalizeNpc(JSON.parse(JSON.stringify(src)));
+  c.id = newId(); c.name = src.name + ' (копия)'; c.builtin = false; c.favorite = false;
+  c.order = Math.max(...library.map((x) => x.order)) + 1;
+  library.push(c); persist(); renderChips(); renderGrid(); return c;
+}
+function deleteNpc(id) {
+  markRemoved(id);
+  library = library.filter((n) => n.id !== id);
+  if (settings.selectedId === id) { settings.selectedId = null; persistSettings(); }
+  persist(); renderChips(); renderGrid(); updateSelectionUI();
+}
+
+/* ---------------- библиотека ---------------- */
+function openLibrary() {
+  const list = el('div', { class: 'cat-list' });
+  const draw = () => {
+    list.replaceChildren();
+    const items = library.slice().sort((a, b) => a.order - b.order);
+    items.forEach((n, i) => list.append(el('div', { class: 'lib-row', style: `--cc:${colorOf(n)}` },
+      avatarNode(n),
+      el('div', { class: 'nm' }, n.name, el('small', { text: [n.voiceName, n.category].filter(Boolean).join(' · ') })),
+      el('button', { 'aria-label': 'Вверх', text: '↑', disabled: i === 0, onclick: () => move(items, i, -1) }),
+      el('button', { 'aria-label': 'Вниз', text: '↓', disabled: i === items.length - 1, onclick: () => move(items, i, 1) }),
+      el('button', { 'aria-label': 'Избранное', text: n.favorite ? '★' : '☆', onclick: () => { n.favorite = !n.favorite; persist(); draw(); renderChips(); renderGrid(); } }),
+      el('button', { 'aria-label': 'Настроить', text: '✎', onclick: () => { closeSheet(); openEditor(n.id); } }),
+    )));
+  };
+  const move = (items, i, d) => {
+    const a = items[i], b = items[i + d]; if (!b) return;
+    const t = a.order; a.order = b.order; b.order = t;
+    if (a.order === b.order) items.forEach((x, k) => { x.order = k; });
+    persist(); settings.sort = 'manual'; persistSettings(); draw(); renderGrid();
+  };
+  draw();
+  const sortSel = el('select'); [['manual', 'Мой порядок'], ['name', 'По названию'], ['category', 'По категории'], ['recent', 'Недавние'], ].forEach(([k, t]) => sortSel.append(el('option', { value: k, text: t, selected: settings.sort === k })));
+  sortSel.addEventListener('change', () => { settings.sort = sortSel.value; persistSettings(); renderGrid(); });
+  openSheet([
+    el('h2', { text: 'Библиотека голосов' }),
+    el('label', { class: 'f', text: 'Порядок на главном экране' }), sortSel,
+    el('div', { class: 'row wrap' },
+      el('button', { class: 'btn', text: '＋ Новый NPC', onclick: () => { closeSheet(); addNpc(); } }),
+      el('button', { class: 'btn', text: '▶ Послушать всех', onclick: playAllExamples })),
+    el('h4', { text: 'NPC (' + library.length + ')' }), list,
+    el('h4', { text: 'Резервная копия' }),
+    el('div', { class: 'grid-btns' },
+      el('button', { class: 'btn', text: '⬇ Сохранить копию', onclick: () => { download(exportBackup(library, settings), 'голоса-npc-' + new Date().toISOString().slice(0, 10) + '.json', 'application/json'); toast('Файл сохранён в «Загрузки».', 'ok', 3000); } }),
+      el('button', { class: 'btn', text: '⬆ Загрузить копию', onclick: importFile })),
+    el('p', { class: 'hint', text: 'Копия содержит всех NPC и их настройки. Загруженные NPC добавятся к существующим.' }),
+    el('div', { class: 'sticky' }, el('button', { class: 'btn primary', text: 'Закрыть', onclick: closeSheet })),
+  ]);
+}
+
+function importFile() {
+  const inp = $('fileImport'); inp.value = '';
+  inp.onchange = async () => {
+    const f = inp.files && inp.files[0]; if (!f) return;
+    try {
+      const { npcs } = parseBackup(await f.text());
+      let added = 0, updated = 0;
+      for (const n of npcs) {
+        const ex = byId(n.id);
+        if (ex) { Object.assign(ex, n); updated++; }
+        else { n.order = Math.max(-1, ...library.map((x) => x.order)) + 1; library.push(n); added++; }
+      }
+      persist(); renderChips(); renderGrid(); updateSelectionUI();
+      toast(`Готово: добавлено ${added}, обновлено ${updated}.`, 'ok');
+      closeSheet(); openLibrary();
+    } catch (e) { toast(e.message || 'Не удалось прочитать файл.', 'err'); }
+  };
+  inp.click();
+}
+
+function download(text, name, type) {
+  if (window.AndroidBridge && typeof window.AndroidBridge.saveFile === 'function') {
+    const bytes = new TextEncoder().encode(text);
+    let binary = ''; for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    window.AndroidBridge.saveFile(name, type, btoa(binary));
+    return;
+  }
+  const url = URL.createObjectURL(new Blob([text], { type }));
+  const a = el('a', { href: url, download: name }); document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+
+/* ---------------- настройки ---------------- */
+async function openSettings() {
+  const inputs = await engine.listInputs();
+  const inSel = el('select'); inSel.append(el('option', { value: '', text: 'По умолчанию' }));
+  inputs.forEach((d) => inSel.append(el('option', { value: d.id, text: d.label, selected: d.id === settings.inputId })));
+  inSel.addEventListener('change', async () => { settings.inputId = inSel.value; persistSettings(); await restartMic(); });
+
+  const qSel = el('select');
+  [['fast', 'Минимальная задержка (≈21 мс), качество чуть ниже'], ['quality', 'Лучшее качество (≈43 мс)']].forEach(([k, t]) => qSel.append(el('option', { value: k, text: t, selected: settings.quality === k })));
+  qSel.addEventListener('change', () => { settings.quality = qSel.value; persistSettings(); engine.applySettings(); updateLatency(); });
+
+  const gateOut = el('b'); const gateIn = el('input', { type: 'range', min: -70, max: -20, step: 1, value: settings.gateDb });
+  const paintGate = () => { gateOut.textContent = gateIn.value + ' дБ'; gateIn.style.setProperty('--p', ((gateIn.value + 70) / 50) * 100 + '%'); gateIn.style.setProperty('--p', ((parseFloat(gateIn.value) + 70) / 50 * 100) + '%'); };
+  paintGate();
+  gateIn.addEventListener('input', () => { settings.gateDb = parseFloat(gateIn.value); paintGate(); persistSettings(); engine.applySettings(); });
+  const calBtn = el('button', { class: 'btn small', text: 'Подобрать автоматически (помолчите 2 сек.)', onclick: async () => {
+    calBtn.disabled = true; calBtn.textContent = 'Слушаю тишину…';
+    try { const db = await engine.calibrateGate(); if (db == null) toast('Не получилось замерить шум.', 'err'); else { gateIn.value = db; settings.gateDb = db; paintGate(); persistSettings(); engine.applySettings(); toast('Порог установлен: ' + db + ' дБ', 'ok', 2500); } }
+    catch (e) { reportMicError(e); } finally { calBtn.disabled = false; calBtn.textContent = 'Подобрать автоматически (помолчите 2 сек.)'; }
+  } });
+
+  const toggle = (label, key, hint, after) => {
+    const b = el('button', { class: 'toggle', 'aria-pressed': String(!!settings[key]), onclick: () => { settings[key] = !settings[key]; b.setAttribute('aria-pressed', String(!!settings[key])); persistSettings(); engine.applySettings(); if (after) after(); refreshControls(); } }, el('span', { class: 'dot' }), label);
+    return el('div', null, b, hint ? el('p', { class: 'hint', text: hint }) : null);
+  };
+  const latency = el('p', { class: 'hint' });
+  const updateLatency = () => { const ms = engine.latencyMs(); latency.textContent = ms ? 'Текущая задержка живого режима: ≈' + ms + ' мс (включая устройство вывода).' : 'Задержка будет показана после включения микрофона.'; };
+  updateLatency();
+
+  const hang = slider({ label: 'Пауза, после которой фраза считается законченной', min: 300, max: 1800, step: 50, value: settings.phraseHangMs, digits: 0, unit: ' мс', onInput: (v) => { settings.phraseHangMs = v; persistSettings(); } });
+  const master = slider({ label: 'Общая громкость', min: 0, max: 2, step: 0.05, value: settings.masterVolume, digits: 2, unit: '×', onInput: (v) => { settings.masterVolume = v; persistSettings(); engine.applySettings(); } });
+
+  const srvBox = el('div', { class: 'status-line', text: 'Проверяю сервер на компьютере…' });
+  const showServer = (s) => {
+    if (!s) { srvBox.className = 'status-line'; srvBox.textContent = 'Сервер на компьютере не подключён. Встроенные голоса работают без него. Для нейросети откройте приложение по адресу, который показал компьютер.'; return; }
+    srvBox.className = 'status-line ok';
+    const names = Object.values(s.engines || {}).filter((e) => e.available).map((e) => e.title);
+    srvBox.textContent = 'Компьютер подключён. Нейросетевые движки: ' + (names.length ? names.join(', ') : 'пока не установлены (см. инструкцию)');
+  };
+  showServer(engine.remote.status);
+  engine.remote.probe().then(showServer);
+
+  const testBtn = el('button', { class: 'btn', text: '🎙 Записать тестовую фразу', onclick: async () => { closeSheet(); await recordTestPhrase(); } });
+  const hearOrig = el('button', { class: 'btn', text: '▶ Мой голос (оригинал)', onclick: async () => { if (!(await ensureTestPhrase())) return; await engine.playTestOriginal(); } });
+
+  openSheet([
+    el('h2', { text: 'Настройки' }),
+    el('h4', { text: 'Микрофон' }),
+    el('label', { class: 'f', text: 'Устройство ввода' }), inSel,
+    el('label', { class: 'f', text: 'Порог тишины (шум ниже порога не обрабатывается)' }),
+    el('div', { class: 'row' }, gateIn, gateOut), calBtn,
+    toggle('Эхоподавление телефона', 'echoCancellation', 'По умолчанию ВЫКЛЮЧЕНО: добавляет задержку. Включайте, только если слышите своё эхо из динамика.', restartMic),
+    toggle('Шумоподавление телефона', 'noiseSuppression', null, restartMic),
+    el('h4', { text: 'Скорость и качество' }),
+    el('label', { class: 'f', text: 'Окно обработки' }), qSel, latency,
+    el('p', { class: 'hint', text: 'Чтобы задержка была минимальной: говорите в проводные наушники (USB-C), а не по Bluetooth — Bluetooth добавляет 100–200 мс. Режим «Минимальная задержка» уменьшает её ещё на ≈20 мс, но голос звучит чуть грубее.' }),
+    toggle('Эффекты (хрипота, рычание, эхо)', 'fxEnabled', 'Выключите, если нужна минимальная задержка и чистый звук.'),
+    hang, master,
+    toggle('Если нейросеть недоступна — использовать встроенный голос', 'fallbackDsp'),
+    el('h4', { text: 'Компьютер-сервер (нейросети)' }), srvBox,
+    el('h4', { text: 'Пробная фраза' }),
+    el('p', { class: 'hint', text: 'Запишите короткую фразу — по ней звучат «Пример» у карточек и кнопки прослушивания.' }),
+    el('div', { class: 'grid-btns' }, testBtn, hearOrig),
+    el('h4', { text: 'Данные' }),
+    el('div', { class: 'grid-btns' },
+      el('button', { class: 'btn', text: '⬇ Резервная копия', onclick: () => download(exportBackup(library, settings), 'голоса-npc.json', 'application/json') }),
+      el('button', { class: 'btn', text: '⬆ Загрузить копию', onclick: importFile })),
+    el('button', { class: 'btn danger block', style: 'margin-top:10px', text: 'Вернуть демо-NPC и сбросить всё', onclick: async () => { if (confirm('Все ваши NPC и настройки будут удалены. Продолжить?')) { try { localStorage.clear(); } catch { /* ok */ } location.reload(); } } }),
+    el('div', { class: 'sticky' }, el('button', { class: 'btn primary', text: 'Готово', onclick: closeSheet })),
+  ]);
+}
+
+async function restartMic() {
+  const was = engine.running;
+  if (!was) return;
+  engine.stop();
+  try { await engine.start(); } catch (e) { reportMicError(e); }
+}
+
+/* ====================================================================== */
+/* Кнопки панели                                                           */
+/* ====================================================================== */
+$('btnMic').addEventListener('click', toggleMic);
+$('btnPrev').addEventListener('click', () => stepNpc(-1));
+$('btnNext').addEventListener('click', () => stepNpc(1));
+$('btnAdd').addEventListener('click', addNpc);
+$('btnLibrary').addEventListener('click', openLibrary);
+$('btnSettings').addEventListener('click', openSettings);
+$('btnPhoneRec').addEventListener('click', () => {
+  if (!selected()) { toast('Сначала выберите NPC.', 'err'); return; }
+  const inp = $('fileRec'); inp.value = '';
+  inp.onchange = async () => {
+    const f = inp.files && inp.files[0]; if (!f) return;
+    try { toast('Обрабатываю запись…', '', 1800); await engine.processFile(await f.arrayBuffer(), selected()); }
+    catch (e) { toast('Не удалось обработать запись: ' + (e && e.message ? e.message : 'формат не поддерживается'), 'err', 7000); }
+  };
+  inp.click();
+});
+$('btnUnmute').addEventListener('click', () => engine.unmute());
+$('btnReplay').addEventListener('click', () => engine.playLast('conv'));
+$('btnReplayOrig').addEventListener('click', () => engine.playLast('orig'));
+$('btnAutoplay').addEventListener('click', () => { settings.autoplay = !settings.autoplay; persistSettings(); engine.applySettings(); refreshControls(); });
+$('btnMonitor').addEventListener('click', () => { settings.monitor = settings.monitor === 'original' ? 'converted' : 'original'; persistSettings(); engine.applySettings(); refreshControls(); });
+document.querySelectorAll('.seg button').forEach((b) => b.addEventListener('click', () => {
+  settings.mode = b.dataset.mode; persistSettings(); engine.applySettings(); refreshControls();
+  toast(settings.mode === 'live' ? 'Живой режим: голос звучит сразу, пока вы говорите.' : 'Режим фраз: ответ звучит после вашей паузы. Работает скорость речи и нейросеть.', '', 3200);
+}));
+document.addEventListener('keydown', (e) => {
+  if (!$('overlay').hidden || /INPUT|TEXTAREA|SELECT/.test((e.target || {}).tagName || '')) return;
+  if (e.code === 'Space') { e.preventDefault(); toggleMic(); }
+  else if (e.key === 'ArrowRight') stepNpc(1);
+  else if (e.key === 'ArrowLeft') stepNpc(-1);
+  else if (/^[1-9]$/.test(e.key)) { const l = visibleList()[+e.key - 1]; if (l) selectNpc(l.id); }
+});
+
+/* ====================================================================== */
+/* Запуск                                                                  */
+/* ====================================================================== */
+(async function init() {
+  if (!hasSavedLibrary()) {
+    const rec = await recoverFromMirror();
+    if (rec) {
+      if (rec.library) library = rec.library;
+      if (rec.settings) Object.assign(settings, rec.settings);
+      toast('Данные восстановлены из резервного хранилища.', 'ok', 3000);
+    }
+  }
+  requestPersistent();
+  if (!byId(settings.selectedId)) settings.selectedId = (library.slice().sort((a, b) => a.order - b.order)[0] || {}).id || null;
+  renderChips(); renderGrid(); updateSelectionUI();
+  const n = selected(); if (n) engine.setVoice(n);
+  refreshControls();
+  engine.remote.probe().then(() => { /* статус сервера нужен редактору */ });
+  const tp = await loadTestPhrase();
+  if (tp && tp.data) engine.setTestPhrase({ sr: tp.sr, data: tp.data });
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    Promise.reject().catch(() => { /* офлайн-режим не критичен */ });
+  }
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { persist(); persistSettings(); } });
+  window.addEventListener('pagehide', () => { persist(); persistSettings(); });
+  window.__vdnd = { engine, get library() { return library; }, settings, selectNpc, toggleMic };
+})();
+
+})();
+</script>
+</body>
+</html>
